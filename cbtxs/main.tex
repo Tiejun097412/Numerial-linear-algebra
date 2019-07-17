@@ -497,34 +497,161 @@ $$
 \section{\color{blue}收敛性分析}
 %\newpage
 \subsection{定常迭代方法的收敛性}
+{\color{blue}定义（迭代方法的收敛性）}如果对于任意的初始向量$x^{(0)}$,都有
+$$\lim_{k\to \infty}x^{(k)}\to x_*$$
+则称迭代格式{\color{blue}6.7}是{\color{blue}收敛}的,否则就称其为{\color{blue}发散}的。\\
+基于矩阵分裂的迭代方法,其收敛性取决于迭代矩阵的谱半径.
+\subsection*{矩阵谱半径}
+设$A \in \mathbb{R}^{n \times n}$，则称
+$$
+\rho(A) \triangleq \max _{\lambda \in \sigma(A)}|\lambda|
+$$
+为$A$的{\color{blue}谱半径}，其中$\sigma(A)$表示$A$的所有特征值组成的集合。\\
+谱半径与矩阵范数之间有如下的关系.\\
+{\color{blue}引理(谱半径与范数的关系)}设$G \in \mathbb{R}^{n \times n}$,则
+\begin{itemize}
+\item (1)对任意算子范数,有$\rho(G) \leq\|G\|$;
+\item (2)反之,对任意$\varepsilon>0$,都存在一个算子范数$\|\cdot\|_{\varepsilon}$,使得$| G \|_{\varepsilon} \leq\rho(G)+\varepsilon$,其中范数$\|\cdot\|_{\varepsilon}$依赖于$G$和$\varepsilon$.所以,若$\rho(G)<1$,则存在算子范数$\|\cdot\| \varepsilon$,使得$| G \|_{\varepsilon}<1$;
+\end{itemize}
+由此,我们可以立即得到下面的结论.\\
+{\color{blue}定理}设矩阵$G \in \mathbb{R}^{n \times n}$,则$\lim _{k \rightarrow \infty} G^{k}=0$当且仅当$\rho(G)<1$.
+下面的结论是谱半径与算子范数之间的一个非常重要的性质。\\
+{\color{blue}引理}设$G \in \mathbb{R}^{n \times n}$,则对任意算子范数$\|\cdot\|$,有
+$$
+\rho(G)=\lim _{k \rightarrow \infty}\left\|G^{k}\right\|^{\frac{1}{k}}
+$$
+\subsection*{迭代方法收敛性判断}
+首先给出一个迭代方法收敛的充分条件\\
+{\color{blue}引理}若存在算子范数$\|\cdot\|$,使得$| G \|<1$,则迭代方法6.7收敛.\\
+我们记$e^{(k)} \triangleq x^{(k)}-x$为第$k$步迭代解$x^{(k)}$的{\color{blue}误差向量}.\\
+{\color{blue}定理(收敛性定理)}对任意迭代初始向量$x^{(0)}$,迭代方法6.7收敛的充要条件是$\rho(G)<1$.\\
+{\color{blue}定义}设$G$是迭代矩阵,则迭代方法6.7的{\color{blue}平均收敛速度}定义为
+$$
+R_{k}(G) \triangleq-\ln \left\|G^{k}\right\|^{\frac{1}{k}}
+$$,
+{\color{blue}渐进收敛速度}定义为
+$$
+R(G) \triangleq \lim _{k \rightarrow \infty} R_{k}(G)=-\ln \rho(G)
+$$
+平均收敛速度与迭代步数和所用的范数有关,但渐进收敛速度只依赖于迭代矩阵的谱半径.\\
+{\color{blue}定理}考虑算法6.7.如果存在某个算子范数$\|\cdot\|$使得$\|G\|=q<1$,则
+\begin{itemize}
+\item (1)$\left\|x^{(k)}-x_{*}\right\| \leq q^{k}\left\|x^{(0)}-x_{*}\right\|$
+\item (2)$\left\|x^{(k)}-x_{+}\right\| \leq \frac{q}{1-q}\left\|x^{(k)}-x^{(k-1)}\right\|$
+\item (3)$\left\|x^{(k)}-x_{*}\right\| \leq \frac{q^{k}}{1-q}\left\|x^{(1)}-x^{(0)}\right\|$
+\end{itemize}
+一般来说,好的迭代方法应该满
+\begin{itemize}
+\item(1)$\rho(G)$很小;
+\item(2)以$M$为系数矩阵的线性方程组比较容易求解
+\end{itemize}
+\subsection{\color{blue}二维离散Poisson方程情形}
+{\color{blue}充要条件}：迭代矩阵的谱半径小于1.\\
+{\color{blue}充分条件}：迭代矩阵的某个算子范数小于1.\\
+对于二维离散Poisson方程,系数矩阵为
+$$
+A=T=I \otimes T_{n}+T_{n} \otimes I
+$$
+故Jacobi算法的迭代矩阵为
 
+\begin{align*}
+G_{\mathrm{J}}=D^{-1}(L+U)=(4 I)^{-1}(4 I-T)=I-\frac{1}{4} T
+\tag (6.12)
+\end{align*}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+由于$T$的特征值为
+$$
+\lambda_{i}+\lambda_{j}=2\left(1-\cos \frac{\pi i}{n+1}\right)+2\left(1-\cos \frac{\pi j}{n+1}\right)
+$$
+所以$G_{\mathrm{J}}$的特征值为
+$$
+1-\frac{1}{4}\left(\lambda_{i}+\lambda_{j}\right)=\frac{1}{2}\left(\cos \frac{\pi i}{n+1}+\cos \frac{\pi j}{n+1}\right)
+$$
+故
+$$
+\rho\left(G_{\mathrm{J}}\right)=\frac{1}{2} \max _{i, j}\left\{\left|\cos \frac{\pi i}{n+1}+\cos \frac{\pi j}{n+1}\right|\right\}=\cos \frac{\pi}{n+1}<1
+$$
+即Jacobi算法是收敛的.
+注意当$n$越来越大时,$\kappa(T) \rightarrow \infty$,即$T$越来越病态,此时$\rho\left(G_{1}\right) \rightarrow 1$,即Jacobi算法收敛越来越慢.\\
+{\color{blue}问题越病态可能就越难求解}\\
+\subsection*{\color{blue}G-S算法和SOR算法}
+{\color{blue}性质}设$G_{\mathrm{GS}}$和$G_{\mathrm{SOR}}$分别表示求解二维Poisson方程的红黑排序的G-S算法和SOR算法的迭代矩阵,则有
+\begin{align*}
+\rho\left(G_{\mathrm{GS}}\right)=\rho\left(G_{\mathrm{J}}\right)^{2}=\cos ^{2} \frac{\pi}{n+1}<1
+\tag(6.13)
+\end{align*}
+\begin{align*}
+\rho\left(G_{\mathrm{SOR}}\right)=\frac{\cos ^{2} \frac{\pi}{n+1}}{\left(1+\sin \frac{\pi}{n+1}\right)^{2}}<1, \quad \omega=\frac{2}{1+\sin \frac{\pi}{n+1}}
+\tag(6.14)
+\end{align*}
+在上述结论中, SOR算法中的$\omega$是最优参数,即此时的$\rho\left(G_{\mathrm{SOR}}\right)$最小.
+\subsection*{SOR与Jacobi}
+由Taylor公式可知,当$n$很大时,有
+$$
+\begin{aligned} \rho\left(G_{\mathrm{J}}\right) &=\cos \frac{\pi}{n+1} \approx 1-\frac{\pi^{2}}{2(n+1)^{2}}=1-O\left(\frac{1}{n^{2}}\right) \\ \rho\left(G_{\mathrm{SOR}}\right) &=\frac{\cos ^{2} \frac{\pi}{n+1}}{\left(1+\sin \frac{\pi}{n+1}\right)^{2}} \approx 1-\frac{2 \pi}{n+1}=1-O\left(\frac{1}{n}\right) \end{aligned}
+$$
+由于当$n$很大时有
+$$
+\left(1-\frac{1}{n}\right)^{k} \approx 1-\frac{k}{n}=1-\frac{k n}{n^{2}} \approx\left(1-\frac{1}{n^{2}}\right)^{k n}
+$$
+即SOR迭代$k$步后误差的减小量与Jacobi迭代$kn$步后误差减小量差不多.因此,取最优参数的$SOR$算法的收敛速度大约是$Jacobi$算法的$n$倍.\\
+事实上,当$n$很大时,这三个算法的收敛速度都很慢.\\
+{\color{blue}例}\quad 已知二维Poisson方程
+$$
+\left\{\begin{array}{ll}
+{-\Delta u(x, y)=-1,} & {(x, y) \in \Omega} \\ 
+{u(x, y)=\frac{x^{2}+y^{2}}{4},} & {(x, y) \in \partial \Omega}\end{array}\right.
+$$
+其中$\Omega=(0,1) \times(0,1)$.该方程的解析解是$u(x, y)=\frac{x^{2}+y^{2}}{4}$.用五点差分格式离散后得到一个线性方程组,分别用Jacobi, G-S和SOR算法计算这个方程组的解,并比较收敛效果
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.8\textwidth]{./figures/figure3.png} 
+\end{figure}
+\subsection{\color不可约对角占优}
+这里我们考虑A是严格对角占优或不可约弱对角占优情形.
+{\color{blue}定理}\quad 设$A \in \mathbb{R}^{n \times n}$，若A严格对角占优,则Jacobi算法和G-S算法都收敛,且
+$$
+\left\|G_{\mathrm{GS}}\right\|_{\infty} \leq\left\|G_{\mathrm{J}}\right\|_{\infty}<1
+$$
+{\color{blue}定理}\quad 设$A \in \mathbb{R}^{n \times n}$若A是弱对角占优且不可约,则Jacobi算法和G-S算法都收敛,且$\rho\left(G_{\mathrm{GS}}\right)<\rho\left(G_{\mathrm{J}}\right)<1$
+二维离散Poisson方程是弱行对角占优且不可约,故对Jacobi算法和G-S算法都收敛.\\
+上述定理中的结论对一般矩阵并不成立:{\color{blue}对某些矩阵, Jacobi算法收敛,但G-S算法却不一定收敛}.
+关于SOR方法,我们有下面的结论\\
+设$A \in \mathbb{R}^{n \times n}$，若A严格对角占优且$0<\omega \leq 1$,则SOR方法收敛.\\
+{\color{blue}定理}\quad 设$A \in \mathbb{R}^{n \times n}$若A是弱对角占优且不可约,且$0<\omega \leq 1$则SOR方法收敛.
+\subsection{\color{blue}对称正定矩阵}
+在给出收敛性结论之前,也介绍两个需要用到的引理.\\
+{\color{blue}引理}\quad 设$A \in \mathbb{C}^{n \times n}$，Hermite对称,且$A=M-N$是$A$的一个矩阵分裂,则$M^{*}+N$也是Hermite对称,且对任意$x \in \mathbb{C}^{n}$有
+$$
+x^{*} A x-\tilde{x}^{*} A \tilde{x}=u^{*}\left(M^{*}+N\right) u
+$$
+其中$\tilde{x}=M^{-1} N x, u=x-\tilde{x}$
+{\color{blue}定理}\quad 设$A \in \mathbb{R}^{n \times n}$对称，且$A=M-N$是$A$的一个矩阵分裂.
+\begin{itemize}
+\item (1)如果$A$和$M^{T}+N$都是正定矩阵,则$M$非奇异且$\rho\left(M^{-1} N\right)<1$
+\item (2)如果$\rho\left(M^{-1} N\right)<1$且$M^{T}+N$正定,则$A$正定.
+\end{itemize}
+我们首先给出SOR迭代收敛的一个必要条件.
+{\color{blue}定理}对于SOR算法,有$\rho\left(G_{\mathrm{SOR}}\right) \geq|1-\omega|$,故SOR算法收敛的必要条件是$0<\omega<2$.
+{\color{blue}定理}\quad 设$A \in \mathbb{R}^{n \times n}$对称正定.
+\begin{itemize}
+\item (1)若$2D$正定且Jacobi迭代收敛,则$A$正定
+\item (2)若$D$正定,且存在$\omega \in(0,2)$使得SOR (或SSOR)收敛,则$A$正定
+\item (3)若$D$正定,且G-S迭代收敛,则$A$正定.
+\end{itemize}
+\subsection{\color{blue}相容次序矩阵}
+针对一类特殊的矩阵,这三种迭代方法的谱半径之间存在一种特殊关系.\\
+{\color{blue}定义}设$A \in \mathbb{R}^{n \times n}$，如果存在一个置换矩阵$P$,使得
+\begin{align}
+P A P^{T}=\left[\begin{array}{cc}{D_{1}} & {F} \\ {E} & {D_{2}}\end{array}\right]\tag(6.15)
+\end{align}
+其中$D_{1}, D_{2}$为对角矩阵，则称$A$具有{\color{blue}性质A}.
+{\color{blue}例}\quad 对于二维离散Poisson方程,系数矩阵$T_{N^{2}}$具有性质$A$.事实上,设$\tilde{T}_{N^{2}}$为模型问题采用红黑排序后的系数矩阵,则$\tilde{T}_{N^{2}}$具有({\color{blue}6.15})的结构.\\
+我们首先给出一个性质.\\
+{\color{blue}引理}\quad 设$B \in \mathbb{R}^{n \times n}$具有下面的结构
+$$
+B=\left[\begin{array}{cc}{0} & {B_{12}} \\ {B_{21}} & {0}\end{array}\right]
+$$
 
 
 
