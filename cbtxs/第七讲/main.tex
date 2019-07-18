@@ -1,0 +1,357 @@
+% !Mode:: "TeX:UTF-8"
+\documentclass[12pt,a4paper]{article}
+\input{en_preamble.tex}
+\input{xecjk_preamble.tex}
+%\linespread{1.5}
+\usepackage{parskip}%首行缩进
+\setlength{\parindent}{0cm}%首行缩进
+
+\title{}
+\author{作者}
+\date{\chntoday}
+\begin{document}
+\maketitle
+\newpage
+\section*{\color{blue}第七讲\quad 子空间迭代方法}
+\subsection*{基本思想}
+在一个{\color{blue}维数较低的子空间}中寻找解析解的一个{\color{blue}最佳近似}.子空间迭代算法的主要过程可以分解为下面三步:
+\begin{enumerate}[(1)]
+\item 寻找合适的子空间;\\
+\item 在该子空间中求“最佳近似”;\\
+\item 若这个近似解满足精度要求,则停止计算;否则,重新构造一个新的子空间,并返回第(2)步.
+\end{enumerate}
+这里主要涉及到的{\color{blue}两个关键问题}是:
+\begin{enumerate}
+\item 如果选择和更新子空间；
+\item 如何在给定的子空间中寻找“最佳近似”.
+\end{enumerate}
+关于第一个问题,目前较成功的解决方案就是使用{\color{blue}Krylov子空间}.\\
+\section{\color{blue}Krylov子空间}
+设$A \in \mathbb{R}^{n \times n}, r \in \mathbb{R}^{n}$,则由$A$和$r$生成的$m$维{\color{blue}Krylov子空间}定义为
+$$
+\boxed{\mathcal{K}_{m}=\mathcal{K}_{m}(A, r) \triangleq \operatorname{span}\left\{r, A r, A^{2} r, \ldots, A^{m-1} r\right\}, \quad m \leq n}
+$$
+设$\operatorname{dim} \mathcal{K}_{m}=m$,令$v_{1}, v_{2}, \ldots, v_{m}$是$\mathcal{K}_{m}$的一组基,则$\forall x \in \mathcal{K}_{m}$可表示为
+$$x=y_{1} v_{1}+y_{2} v_{2}+\cdots+y_{m} v_{m} \triangleq V_{m} y$$
+{\color{blue}寻找“最佳近似”$x^{(m)}$}转化为
+\begin{enumerate}
+\item 寻找一组合适的基$v_{1}, v_{2}, \ldots, v_{m}$;
+\item 求出$x^{(m)}$在这组基下面的表出系数$y^{(m)}$.
+\end{enumerate}
+\subsection*{基的选取: Arnoldi过程}
+最简单的基:$\left\{r, A r, A^{2} r, \ldots, A^{m-1} r\right\} \longmapsto$非正交,稳定性得不到保证.\\
+{\color{blue}Arnoldi过程}:将$\left\{r, A r, A^{2} r, \ldots, A^{m-1} r\right\}$单位正交化\\
+\begin{tabular}{l}
+1:$v_{1}=r /\|r\|_{2}$\\
+2:for $j=1$ \text { to } $m$ do\\
+3:\qquad $z=A v_{j}$\\
+4:\qquad for $i = 1$ to $j$ do \quad{\color{red}\% MGS正交化过程}\\
+5:\qquad \qquad $h_{i, j}=\left(v_{i}, z\right), \quad z=z-h_{i, j} v_{i}$\\
+6:\qquad end for\\
+7:\qquad $h_{j+1, j}=\|z\|_{2}$\quad{\color{red}\% if $h_{j+1, j}=0$break, endif}\\
+8:$v_{j+1}=z / h_{j+1, j}$\\
+9:end for\\
+\end{tabular}
+\subsection*{Arnoldi过程的矩阵表示}
+记$V_{m}=\left[v_{1}, v_{2}, \ldots, v_{m}\right]$
+$$
+H_{m+1, m}=\left[\begin{array}{ccccc}{h_{1,1}} & {h_{1,2}} & {h_{1,3}} & {\cdots} & {h_{1, m}} \\
+ {h_{2,1}} & {h_{2,2}} & {h_{2,3}} & {\cdots} & {h_{2, m}} \\ 
+ {} & {h_{3,2}} & {h_{3,3}} & {\cdots} & {h_{3, m}} \\
+  {} & {}&{\ddots} & {\ddots} & {\vdots} \\
+   {} & {} &{}& {h_{m, m-1}} & {h_{m, m}} \\
+    {} & {} &{}& {h_{m+1, m}}
+    \end{array}\right] \in \mathbb{R}^{(m+1) \times m}
+$$
+则由Arnoldi过程可知
+$$
+A v_{j}=h_{1, j} v_{1}+h_{2, j} v_{2}+\cdots+h_{j, j} v_{j}+h_{j+1, j} v_{j+1}
+$$
+所以有
+\begin{align*}
+A V_{m}=V_{m+1} H_{m+1, m}=V_{m} H_{m}+h_{m+1, m} v_{m+1} e_{m}^{T}
+\tag{7.1}
+\end{align*}
+其中$H_{m}=H_{m+1, m}(1 : m, 1 : m), e_{m}=[0, \ldots, 0,1]^{T} \in \mathbb{R}^{m}$.
+由于$V_{m}$是列正交矩阵,上式两边同乘$V_{m}^{T}$可得
+\begin{align*}
+V_{m}^{T} A V_{m}=H_{m}
+\tag{7.2}
+\end{align*}
+等式(7.1)和(7.2)是Arnoldi过程的两个重要性质.\\
+Lanczos过程\\
+若$A$对称,则$H_m$为对称三对角,记为$T_m$,即
+\begin{align*}
+T_{m}=\left[\begin{array}{cccc}{\alpha_{1}} & {\beta_{1}} & {} & {} \\ {\beta_{1}} & {\ddots} & {\ddots} & {} \\ {} & {\ddots} & {\ddots} & {\beta_{m-1}} \\ {} & {} & {\beta_{m-1}} & {\alpha_{m}}\end{array}\right]
+\tag{7.3}
+\end{align*}
+Lanczos过程的性质与{\color{blue}三项递推公式}(令$v_{0}=0$和$\beta_{0}=0$)
+\begin{array}{lll}
+${A V_{m}=V_{m} T_{m}+\beta_{m} v_{m+1} e_{m}^{T}}$&${}$&$\tag{7.4}$\\ 
+${V_{m}^{T} A V_{m}=T_{m}}$&${}$&$\tag{7.5}$
+\end{array}
+$$
+\beta_{j} v_{j+1}=A v_{j}-\alpha_{j} v_{j}-\beta_{j-1} v_{j-1}, \quad j=1,2, \ldots
+$$
+{\color{blue}Lanczos过程}
+\begin{tabular}{l}
+1:Set$v_0=0$and$$\beta_{0}=0$\\
+2:$v_{1}=r /\|r\|_{2}$\\
+3:for $j=1$ \text { to } $m$ do\\
+4:\qquad $z=A v_{j}$\\
+5:\qquad $\alpha_{j}=\left(v_{j}, z\right)$\\
+6:\qquad $z=z-\alpha_{j} v_{j}-\beta_{j-1} v_{j-1}$\\
+7:\qquad $\beta_{j}=\|z\|_{2}$\\
+8:\qquad if $\beta_(j)=0$then break ,end if\\
+9:\qquad $v_{j+1}=z / \beta_j$\\
+10:end for\\
+\end{tabular}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\cite{tam19912d}
+\bibliography{ref}
+\end{document}
