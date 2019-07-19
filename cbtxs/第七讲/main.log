@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.1)  18 JUL 2019 22:31
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.1)  19 JUL 2019 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2106,4 +2106,173 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 e 12.
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 29.
+
+[2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+[7]
+Overfull \hbox (41.98251pt too wide) in paragraph at lines 258--306
+[][] 
+ []
+
+[8]
+Overfull \vbox (184.22061pt too high) has occurred while \output is active []
+
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
+
+ []
+
+[10]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 351.
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
+
+ []
+
+[12]
+
+LaTeX Warning: Command \r invalid in math mode on input line 411.
+
+Missing character: There is no ̊ in font cmmi8!
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 484--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--523
+
+ []
+
+[14] [15]
+Missing character: There is no 由 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 多 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 项 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 式 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 的 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 最 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 佳 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 逼 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 近 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 性 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 质 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 可 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 知 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 上 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 式 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 的 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 解 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+Missing character: There is no 为 in font DejaVu Serif/OT:script=latn;language=D
+FLT;mapping=tex-text;!
+
+Overfull \hbox (18.70605pt too wide) detected at line 564
+[]\OML/cmm/m/it/12 Chebyshev[][][][][][][][][][][][]; [][][][][][]\OT1/cmr/m/n/
+12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) = [] [][]\OMS/cmsy/m/n/12 ) j[]\OT1/cmr
+/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j ^^T [] [][]
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 568--570
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--604
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 633--635
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 643--647
+
+ []
+
+
+Overfull \hbox (77.23839pt too wide) in paragraph at lines 648--668
+[][] 
+ []
+
+(./main.bbl [19]) [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 711.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 711.
+ (./main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 711.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 711.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 711.
+ ) 
+Here is how much of TeX's memory you used:
+ 42408 strings out of 493007
+ 856715 string characters out of 6136720
+ 942393 words of memory out of 5000000
+ 45801 multiletter control sequences out of 15000+600000
+ 538858 words of font info for 88 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 50i,17n,80p,10482b,590s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.pdf (20 pages).
