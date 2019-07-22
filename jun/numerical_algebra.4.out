@@ -1,0 +1,13 @@
+\BOOKMARK [1][]{section.1}{1 幂迭代}{}% 1
+\BOOKMARK [1][]{section.2}{2 反迭代}{}% 2
+\BOOKMARK [2][]{subsection.2.1}{2.1 Rayleigh 商迭代}{section.2}% 3
+\BOOKMARK [1][]{section.3}{3 正交迭代}{}% 4
+\BOOKMARK [1][]{section.4}{4 QR迭代}{}% 5
+\BOOKMARK [2][]{subsection.4.1}{4.1 算法介绍}{section.4}% 6
+\BOOKMARK [2][]{subsection.4.2}{4.2 QR 迭代与幂迭代的关系}{section.4}% 7
+\BOOKMARK [2][]{subsection.4.3}{4.3 QR迭代与反迭代的关系}{section.4}% 8
+\BOOKMARK [2][]{subsection.4.4}{4.4 QR 迭代与正交迭代的关系}{section.4}% 9
+\BOOKMARK [2][]{subsection.4.5}{4.5 QR迭代的收敛性}{section.4}% 10
+\BOOKMARK [2][]{subsection.4.6}{4.6 带位移的QR迭代}{section.4}% 11
+\BOOKMARK [1][]{section.5}{5 带位移的隐式QR迭代}{}% 12
+\BOOKMARK [2][]{subsection.5.1}{5.1 上 Hessenberg 矩阵}{section.5}% 13
