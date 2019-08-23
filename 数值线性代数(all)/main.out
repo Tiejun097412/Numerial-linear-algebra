@@ -1,0 +1,173 @@
+\BOOKMARK [1][]{section.1}{1 课程主要内容}{}% 1
+\BOOKMARK [1][]{section.2}{2 引言}{}% 2
+\BOOKMARK [2][]{subsection.2.1}{2.1 为什么学计算数学}{section.2}% 3
+\BOOKMARK [2][]{subsection.2.2}{2.2 矩阵计算\(数值线性代数\)的重要性}{section.2}% 4
+\BOOKMARK [2][]{subsection.2.3}{2.3 计算数学的主要任务}{section.2}% 5
+\BOOKMARK [2][]{subsection.2.4}{2.4 矩阵计算基本问题}{section.2}% 6
+\BOOKMARK [2][]{subsection.2.5}{2.5 矩阵计算常用方法\(技术或技巧\)}{section.2}% 7
+\BOOKMARK [1][]{section.3}{3 线性代数基础}{}% 8
+\BOOKMARK [2][]{subsection.3.1}{3.1 线性空间与内积空间}{section.3}% 9
+\BOOKMARK [3][]{subsubsection.3.1.1}{3.1.1 直和}{subsection.3.1}% 10
+\BOOKMARK [3][]{subsubsection.3.1.2}{3.1.2 内积空间}{subsection.3.1}% 11
+\BOOKMARK [3][]{subsubsection.3.1.3}{3.1.3 正交与正交补}{subsection.3.1}% 12
+\BOOKMARK [2][]{subsection.3.2}{3.2 向量范数与矩阵范数}{section.3}% 13
+\BOOKMARK [3][]{subsubsection.3.2.1}{3.2.1 矩阵范数}{subsection.3.2}% 14
+\BOOKMARK [3][]{subsubsection.3.2.2}{3.2.2 矩阵范数的一些性质}{subsection.3.2}% 15
+\BOOKMARK [3][]{subsubsection.3.2.3}{3.2.3 向量序列的收敛}{subsection.3.2}% 16
+\BOOKMARK [3][]{subsubsection.3.2.4}{3.2.4 收敛速度}{subsection.3.2}% 17
+\BOOKMARK [2][]{subsection.3.3}{3.3 矩阵的投影}{section.3}% 18
+\BOOKMARK [3][]{subsubsection.3.3.1}{3.3.1 特征值与特征向量}{subsection.3.3}% 19
+\BOOKMARK [3][]{subsubsection.3.3.2}{3.3.2 Bendixson定理}{subsection.3.3}% 20
+\BOOKMARK [3][]{subsubsection.3.3.3}{3.3.3 Gerschgorin圆盘定理}{subsection.3.3}% 21
+\BOOKMARK [3][]{subsubsection.3.3.4}{3.3.4 投影变换与投影矩阵}{subsection.3.3}% 22
+\BOOKMARK [3][]{subsubsection.3.3.5}{3.3.5 投影矩阵的判别}{subsection.3.3}% 23
+\BOOKMARK [3][]{subsubsection.3.3.6}{3.3.6 投影算子的矩阵表示}{subsection.3.3}% 24
+\BOOKMARK [3][]{subsubsection.3.3.7}{3.3.7 正交投影}{subsection.3.3}% 25
+\BOOKMARK [3][]{subsubsection.3.3.8}{3.3.8 正交投影矩阵的一个重要应用}{subsection.3.3}% 26
+\BOOKMARK [3][]{subsubsection.3.3.9}{3.3.9 不变子空间}{subsection.3.3}% 27
+\BOOKMARK [3][]{subsubsection.3.3.10}{3.3.10 不变子空间的一个重要性质}{subsection.3.3}% 28
+\BOOKMARK [2][]{subsection.3.4}{3.4 矩阵标准型}{section.3}% 29
+\BOOKMARK [3][]{subsubsection.3.4.1}{3.4.1 Schur 标准型}{subsection.3.4}% 30
+\BOOKMARK [3][]{subsubsection.3.4.2}{3.4.2 实 Schur 标准型}{subsection.3.4}% 31
+\BOOKMARK [2][]{subsection.3.5}{3.5 几类特殊矩阵}{section.3}% 32
+\BOOKMARK [3][]{subsubsection.3.5.1}{3.5.1 对称正定矩阵}{subsection.3.5}% 33
+\BOOKMARK [3][]{subsubsection.3.5.2}{3.5.2 矩阵平方根}{subsection.3.5}% 34
+\BOOKMARK [3][]{subsubsection.3.5.3}{3.5.3 对角占优矩阵}{subsection.3.5}% 35
+\BOOKMARK [3][]{subsubsection.3.5.4}{3.5.4 可约与不可约}{subsection.3.5}% 36
+\BOOKMARK [3][]{subsubsection.3.5.5}{3.5.5 其他常见特殊矩阵}{subsection.3.5}% 37
+\BOOKMARK [2][]{subsection.3.6}{3.6 Kronecker 积}{section.3}% 38
+\BOOKMARK [3][]{subsubsection.3.6.1}{3.6.1 基本性质}{subsection.3.6}% 39
+\BOOKMARK [1][]{section.4}{4 线性方程组直接解法}{}% 40
+\BOOKMARK [2][]{subsection.4.1}{4.1 Gauss 消去法和 LU 分解}{section.4}% 41
+\BOOKMARK [3][]{subsubsection.4.1.1}{4.1.1 LU 分解}{subsection.4.1}% 42
+\BOOKMARK [3][]{subsubsection.4.1.2}{4.1.2 LU 分解的实现 — 矩阵初等变换}{subsection.4.1}% 43
+\BOOKMARK [3][]{subsubsection.4.1.3}{4.1.3 IKJ型LU分解}{subsection.4.1}% 44
+\BOOKMARK [3][]{subsubsection.4.1.4}{4.1.4 待定系数法计算 LU 分解}{subsection.4.1}% 45
+\BOOKMARK [3][]{subsubsection.4.1.5}{4.1.5 三角方程求解}{subsection.4.1}% 46
+\BOOKMARK [3][]{subsubsection.4.1.6}{4.1.6 选主元 LU 分解}{subsection.4.1}% 47
+\BOOKMARK [2][]{subsection.4.2}{4.2 选主元 LU 分解}{section.4}% 48
+\BOOKMARK [3][]{subsubsection.4.2.1}{4.2.1 矩阵求逆}{subsection.4.2}% 49
+\BOOKMARK [2][]{subsection.4.3}{4.3 特殊方程组的求解}{section.4}% 50
+\BOOKMARK [3][]{subsubsection.4.3.1}{4.3.1 对称正定线性方程组}{subsection.4.3}% 51
+\BOOKMARK [3][]{subsubsection.4.3.2}{4.3.2 对称不定线性方程组}{subsection.4.3}% 52
+\BOOKMARK [3][]{subsubsection.4.3.3}{4.3.3 三对角线性方程组}{subsection.4.3}% 53
+\BOOKMARK [3][]{subsubsection.4.3.4}{4.3.4 带状线性方程组}{subsection.4.3}% 54
+\BOOKMARK [3][]{subsubsection.4.3.5}{4.3.5 Toeplitz 线性方程组}{subsection.4.3}% 55
+\BOOKMARK [2][]{subsection.4.4}{4.4 扰动分析}{section.4}% 56
+\BOOKMARK [3][]{subsubsection.4.4.1}{4.4.1 δx 与  的关系}{subsection.4.4}% 57
+\BOOKMARK [3][]{subsubsection.4.4.2}{4.4.2 δx 与 x* 的关系}{subsection.4.4}% 58
+\BOOKMARK [3][]{subsubsection.4.4.3}{4.4.3 δx 与残量的关系}{subsection.4.4}% 59
+\BOOKMARK [3][]{subsubsection.4.4.4}{4.4.4 相对扰动分析}{subsection.4.4}% 60
+\BOOKMARK [2][]{subsection.4.5}{4.5 误差分析}{section.4}% 61
+\BOOKMARK [3][]{subsubsection.4.5.1}{4.5.1 LU 分解的舍入误差分析}{subsection.4.5}% 62
+\BOOKMARK [3][]{subsubsection.4.5.2}{4.5.2 Gauss 消去法的舍入误差分析}{subsection.4.5}% 63
+\BOOKMARK [2][]{subsection.4.6}{4.6 解的改进和条件数估计}{section.4}% 64
+\BOOKMARK [3][]{subsubsection.4.6.1}{4.6.1 高精度运算}{subsection.4.6}% 65
+\BOOKMARK [3][]{subsubsection.4.6.2}{4.6.2 矩阵元素缩放 \(Scaling\)}{subsection.4.6}% 66
+\BOOKMARK [3][]{subsubsection.4.6.3}{4.6.3 迭代改进法}{subsection.4.6}% 67
+\BOOKMARK [1][]{section.5}{5 线性最小二乘问题}{}% 68
+\BOOKMARK [2][]{subsection.5.1}{5.1 引言}{section.5}% 69
+\BOOKMARK [3][]{subsubsection.5.1.1}{5.1.1 欠定方程组}{subsection.5.1}% 70
+\BOOKMARK [3][]{subsubsection.5.1.2}{5.1.2 超定方程组}{subsection.5.1}% 71
+\BOOKMARK [2][]{subsection.5.2}{5.2 初等变换矩阵}{section.5}% 72
+\BOOKMARK [3][]{subsubsection.5.2.1}{5.2.1 初等矩阵}{subsection.5.2}% 73
+\BOOKMARK [3][]{subsubsection.5.2.2}{5.2.2 Gauss变换}{subsection.5.2}% 74
+\BOOKMARK [3][]{subsubsection.5.2.3}{5.2.3 Householder变换}{subsection.5.2}% 75
+\BOOKMARK [3][]{subsubsection.5.2.4}{5.2.4 Givens 变换}{subsection.5.2}% 76
+\BOOKMARK [3][]{subsubsection.5.2.5}{5.2.5 正交变换的舍入误差分析}{subsection.5.2}% 77
+\BOOKMARK [2][]{subsection.5.3}{5.3 QR分解}{section.5}% 78
+\BOOKMARK [3][]{subsubsection.5.3.1}{5.3.1 QR分解的存在唯一性}{subsection.5.3}% 79
+\BOOKMARK [3][]{subsubsection.5.3.2}{5.3.2 基于MGS的QR分解}{subsection.5.3}% 80
+\BOOKMARK [3][]{subsubsection.5.3.3}{5.3.3 基于Householder变换的QR分解}{subsection.5.3}% 81
+\BOOKMARK [3][]{subsubsection.5.3.4}{5.3.4 列主元QR分解}{subsection.5.3}% 82
+\BOOKMARK [3][]{subsubsection.5.3.5}{5.3.5 基于Givens变换的QR分解}{subsection.5.3}% 83
+\BOOKMARK [3][]{subsubsection.5.3.6}{5.3.6 QR分解的稳定性}{subsection.5.3}% 84
+\BOOKMARK [2][]{subsection.5.4}{5.4 奇异值分解}{section.5}% 85
+\BOOKMARK [2][]{subsection.5.5}{5.5 线性最小二乘问题的求解方法}{section.5}% 86
+\BOOKMARK [3][]{subsubsection.5.5.1}{5.5.1 正规方程法}{subsection.5.5}% 87
+\BOOKMARK [3][]{subsubsection.5.5.2}{5.5.2 QR分解法}{subsection.5.5}% 88
+\BOOKMARK [3][]{subsubsection.5.5.3}{5.5.3 奇异值分解法}{subsection.5.5}% 89
+\BOOKMARK [2][]{subsection.5.6}{5.6 广义逆与最小二乘}{section.5}% 90
+\BOOKMARK [3][]{subsubsection.5.6.1}{5.6.1 广义逆的定义}{subsection.5.6}% 91
+\BOOKMARK [2][]{subsection.5.7}{5.7 广义逆的基本性质}{section.5}% 92
+\BOOKMARK [3][]{subsubsection.5.7.1}{5.7.1 广义逆的计算}{subsection.5.7}% 93
+\BOOKMARK [3][]{subsubsection.5.7.2}{5.7.2 广义逆与线性最小二乘}{subsection.5.7}% 94
+\BOOKMARK [2][]{subsection.5.8}{5.8 最小二乘扰动分析}{section.5}% 95
+\BOOKMARK [2][]{subsection.5.9}{5.9 最小二乘问题的推广及其应用}{section.5}% 96
+\BOOKMARK [3][]{subsubsection.5.9.1}{5.9.1 正则化}{subsection.5.9}% 97
+\BOOKMARK [3][]{subsubsection.5.9.2}{5.9.2 加权正则化}{subsection.5.9}% 98
+\BOOKMARK [3][]{subsubsection.5.9.3}{5.9.3 约束最小二乘问题}{subsection.5.9}% 99
+\BOOKMARK [3][]{subsubsection.5.9.4}{5.9.4 应用: 多项式数据拟合}{subsection.5.9}% 100
+\BOOKMARK [3][]{subsubsection.5.9.5}{5.9.5 应用: 线性预测}{subsection.5.9}% 101
+\BOOKMARK [3][]{subsubsection.5.9.6}{5.9.6 应用: 信号处理}{subsection.5.9}% 102
+\BOOKMARK [2][]{subsection.5.10}{5.10 非对称矩阵的特征值问题}{section.5}% 103
+\BOOKMARK [2][]{subsection.5.11}{5.11 幂迭代}{section.5}% 104
+\BOOKMARK [2][]{subsection.5.12}{5.12 反迭代}{section.5}% 105
+\BOOKMARK [3][]{subsubsection.5.12.1}{5.12.1 Rayleigh 商迭代}{subsection.5.12}% 106
+\BOOKMARK [2][]{subsection.5.13}{5.13 正交迭代}{section.5}% 107
+\BOOKMARK [2][]{subsection.5.14}{5.14 QR迭代}{section.5}% 108
+\BOOKMARK [3][]{subsubsection.5.14.1}{5.14.1 算法介绍}{subsection.5.14}% 109
+\BOOKMARK [3][]{subsubsection.5.14.2}{5.14.2 QR 迭代与幂迭代的关系}{subsection.5.14}% 110
+\BOOKMARK [3][]{subsubsection.5.14.3}{5.14.3 QR迭代与反迭代的关系}{subsection.5.14}% 111
+\BOOKMARK [3][]{subsubsection.5.14.4}{5.14.4 QR 迭代与正交迭代的关系}{subsection.5.14}% 112
+\BOOKMARK [3][]{subsubsection.5.14.5}{5.14.5 QR迭代的收敛性}{subsection.5.14}% 113
+\BOOKMARK [3][]{subsubsection.5.14.6}{5.14.6 带位移的QR迭代}{subsection.5.14}% 114
+\BOOKMARK [2][]{subsection.5.15}{5.15 带位移的隐式QR迭代}{section.5}% 115
+\BOOKMARK [3][]{subsubsection.5.15.1}{5.15.1 上 Hessenberg 矩阵}{subsection.5.15}% 116
+\BOOKMARK [3][]{subsubsection.5.15.2}{5.15.2 隐式QR迭代}{subsection.5.15}% 117
+\BOOKMARK [3][]{subsubsection.5.15.3}{5.15.3 位移的选取}{subsection.5.15}% 118
+\BOOKMARK [3][]{subsubsection.5.15.4}{5.15.4 收缩Deflation}{subsection.5.15}% 119
+\BOOKMARK [2][]{subsection.5.16}{5.16 特征向量的计算}{section.5}% 120
+\BOOKMARK [2][]{subsection.5.17}{5.17 广义特征值问题}{section.5}% 121
+\BOOKMARK [3][]{subsubsection.5.17.1}{5.17.1 广义Schur分解}{subsection.5.17}% 122
+\BOOKMARK [3][]{subsubsection.5.17.2}{5.17.2 QZ迭代}{subsection.5.17}% 123
+\BOOKMARK [2][]{subsection.5.18}{5.18 应用：多项式求根}{section.5}% 124
+\BOOKMARK [1][]{section.6}{6 对称矩阵的特征值问题}{}% 125
+\BOOKMARK [2][]{subsection.6.1}{6.1 Jacobi迭代}{section.6}% 126
+\BOOKMARK [2][]{subsection.6.2}{6.2 Raylaogh商迭代}{section.6}% 127
+\BOOKMARK [2][]{subsection.6.3}{6.3 对称QR迭代}{section.6}% 128
+\BOOKMARK [2][]{subsection.6.4}{6.4 分而治之法}{section.6}% 129
+\BOOKMARK [2][]{subsection.6.5}{6.5 对分法和逆迭代}{section.6}% 130
+\BOOKMARK [2][]{subsection.6.6}{6.6 奇异值分解}{section.6}% 131
+\BOOKMARK [3][]{subsubsection.6.6.1}{6.6.1 二对角化}{subsection.6.6}% 132
+\BOOKMARK [3][]{subsubsection.6.6.2}{6.6.2 Golub-Kahan SVD算法}{subsection.6.6}% 133
+\BOOKMARK [3][]{subsubsection.6.6.3}{6.6.3 dqds算法}{subsection.6.6}% 134
+\BOOKMARK [3][]{subsubsection.6.6.4}{6.6.4 Jacobi算法}{subsection.6.6}% 135
+\BOOKMARK [2][]{subsection.6.7}{6.7 扰动分析}{section.6}% 136
+\BOOKMARK [3][]{subsubsection.6.7.1}{6.7.1 特征值与Rayleigh商}{subsection.6.7}% 137
+\BOOKMARK [3][]{subsubsection.6.7.2}{6.7.2 对称矩阵特征值的扰动分析}{subsection.6.7}% 138
+\BOOKMARK [3][]{subsubsection.6.7.3}{6.7.3 对称矩阵特征向量的扰动}{subsection.6.7}% 139
+\BOOKMARK [3][]{subsubsection.6.7.4}{6.7.4 Rayleigh商逼近}{subsection.6.7}% 140
+\BOOKMARK [3][]{subsubsection.6.7.5}{6.7.5 相对扰动分析}{subsection.6.7}% 141
+\BOOKMARK [1][]{section.7}{7 线性方程组的迭代解法}{}% 142
+\BOOKMARK [2][]{subsection.7.1}{7.1 离散Poisson方程}{section.7}% 143
+\BOOKMARK [3][]{subsubsection.7.1.1}{7.1.1 一维Poisson方程}{subsection.7.1}% 144
+\BOOKMARK [3][]{subsubsection.7.1.2}{7.1.2 二维Poisson方程}{subsection.7.1}% 145
+\BOOKMARK [2][]{subsection.7.2}{7.2 定常迭代方法}{section.7}% 146
+\BOOKMARK [3][]{subsubsection.7.2.1}{7.2.1 矩阵分裂迭代方法}{subsection.7.2}% 147
+\BOOKMARK [3][]{subsubsection.7.2.2}{7.2.2 Jacobi迭代}{subsection.7.2}% 148
+\BOOKMARK [3][]{subsubsection.7.2.3}{7.2.3 Gauss-Seidel迭代}{subsection.7.2}% 149
+\BOOKMARK [3][]{subsubsection.7.2.4}{7.2.4 SOR迭代}{subsection.7.2}% 150
+\BOOKMARK [3][]{subsubsection.7.2.5}{7.2.5 SSOR迭代方法}{subsection.7.2}% 151
+\BOOKMARK [3][]{subsubsection.7.2.6}{7.2.6 AOR迭代}{subsection.7.2}% 152
+\BOOKMARK [3][]{subsubsection.7.2.7}{7.2.7 Richardson算法}{subsection.7.2}% 153
+\BOOKMARK [3][]{subsubsection.7.2.8}{7.2.8 分块迭代方法}{subsection.7.2}% 154
+\BOOKMARK [2][]{subsection.7.3}{7.3 收敛性分析}{section.7}% 155
+\BOOKMARK [3][]{subsubsection.7.3.1}{7.3.1 定常迭代方法的收敛性}{subsection.7.3}% 156
+\BOOKMARK [3][]{subsubsection.7.3.2}{7.3.2 二维离散Poisson方程情形}{subsection.7.3}% 157
+\BOOKMARK [3][]{subsubsection.7.3.3}{7.3.3 不可约对角占优}{subsection.7.3}% 158
+\BOOKMARK [3][]{subsubsection.7.3.4}{7.3.4 对称正定矩阵}{subsection.7.3}% 159
+\BOOKMARK [3][]{subsubsection.7.3.5}{7.3.5 相容次序矩阵}{subsection.7.3}% 160
+\BOOKMARK [2][]{subsection.7.4}{7.4 加速算法}{section.7}% 161
+\BOOKMARK [3][]{subsubsection.7.4.1}{7.4.1 外推技术}{subsection.7.4}% 162
+\BOOKMARK [2][]{subsection.7.5}{7.5 Chebyshev加速}{section.7}% 163
+\BOOKMARK [2][]{subsection.7.6}{7.6 交替方向与HSS算法}{section.7}% 164
+\BOOKMARK [3][]{subsubsection.7.6.1}{7.6.1 多步迭代法}{subsection.7.6}% 165
+\BOOKMARK [3][]{subsubsection.7.6.2}{7.6.2 交替方向法}{subsection.7.6}% 166
+\BOOKMARK [3][]{subsubsection.7.6.3}{7.6.3 HSS方法}{subsection.7.6}% 167
+\BOOKMARK [2][]{subsection.7.7}{7.7 快速Poisson算法}{section.7}% 168
+\BOOKMARK [2][]{subsection.7.8}{7.8 blueKrylov子空间}{section.7}% 169
+\BOOKMARK [2][]{subsection.7.9}{7.9 GMRES算法}{section.7}% 170
+\BOOKMARK [2][]{subsection.7.10}{7.10 共轭梯度法\(CG\)}{section.7}% 171
+\BOOKMARK [2][]{subsection.7.11}{7.11 收敛性分析}{section.7}% 172
+\BOOKMARK [2][]{subsection.7.12}{7.12 其它Krylov子空间迭代算法}{section.7}% 173
