@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.17)  24 AUG 2019 00:20
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.8.22)  24 AUG 2019 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2175,13 +2175,18 @@ Underfull \hbox (badness 10000) in alignment at lines 989--998
 [][]
  []
 
-[18] [19]
-Underfull \hbox (badness 10000) in alignment at lines 1062--1080
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in alignment at lines 1060--1078
 [][]
  []
 
 [20] [21]
-Underfull \hbox (badness 10000) in alignment at lines 1123--1136
+Underfull \hbox (badness 10000) in alignment at lines 1121--1134
 [][]
  []
 
@@ -2190,259 +2195,163 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [22]
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1182
-|[]$\OML/cmm/m/it/12 IKJ$ \TU/SimSun(0)/bx/n/12 型 $\OML/cmm/m/it/12 LU$ \TU/Sim
-Sun(0)/bx/n/12 分 解|
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1182.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1182.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1182.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1182.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1186--1199
+)
+Underfull \hbox (badness 10000) in alignment at lines 1183--1196
 [][]
  []
 
+[22]
 File: figures/Figure_6.png Graphic file (type bmp)
 <figures/Figure_6.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1215--1215
-|[]\TU/SimSun(0)/bx/n/12 待 定 系 数 法 计 算 \TU/DejaVuSerif(0)/bx/n/12 LU \TU/SimSun
-(0)/bx/n/12 分 解|
+Overfull \hbox (3.05853pt too wide) in paragraph at lines 1216--1217
+[]$[]$ \TU/DejaVuSerif(0)/m/n/12 =$[]$ $[]$ 
  []
 
 [23]
-Underfull \hbox (badness 10000) in alignment at lines 1250--1259
+Underfull \hbox (badness 10000) in alignment at lines 1247--1256
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1278--1278
-|[]\TU/SimSun(0)/bx/n/12 三 角 方 程 求 解|
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1284--1296
+Underfull \hbox (badness 10000) in alignment at lines 1281--1293
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 1305--1316
+Underfull \hbox (badness 10000) in alignment at lines 1302--1313
 [][]
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 1321--1321
-|[]\TU/SimSun(0)/bx/n/12 选 主 元 \TU/DejaVuSerif(0)/bx/n/12 LU \TU/SimSun(0)/bx/n
-/12 分 解|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1343--1343
-|[]\TU/SimSun(0)/bx/n/12 选 主 元 \TU/DejaVuSerif(0)/bx/n/12 LU \TU/SimSun(0)/bx/n
-/12 分 解|
- []
-
-[25]
-Underfull \hbox (badness 10000) in alignment at lines 1368--1391
+[24] [25]
+Underfull \hbox (badness 10000) in alignment at lines 1365--1388
 [][]
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 1424--1424
-|[]\TU/SimSun(0)/bx/n/12 矩 阵 求 逆|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1439--1439
-|[]\TU/SimSun(0)/bx/n/12 特 殊 方 程 组 的 求 解|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1451--1451
-|[]\TU/SimSun(0)/bx/n/12 对 称 正 定 线 性 方 程 组|
- []
-
-[27]
+[26] [27]
 Missing character: There is no ⊺ in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 Missing character: There is no ⊺ in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in alignment at lines 1498--1509
+Underfull \hbox (badness 10000) in alignment at lines 1495--1506
 [][]
  []
 
 
-Overfull \hbox (14.87093pt too wide) detected at line 1525
+Overfull \hbox (11.6014pt too wide) detected at line 1522
 [] \OT1/cmr/m/n/12 = [] [] []
  []
 
 [28]
-Underfull \hbox (badness 10000) in alignment at lines 1535--1554
+Underfull \hbox (badness 10000) in alignment at lines 1532--1551
 [][]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1557
-|[]\TU/SimSun(0)/bx/n/12 对 称 不 定 线 性 方 程 组|
- []
-
-[29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1640--1640
-|[]\TU/SimSun(0)/bx/n/12 三 对 角 线 性 方 程 组|
- []
-
-[31]
-Underfull \hbox (badness 10000) in alignment at lines 1687--1705
+[29] [30] [31]
+Underfull \hbox (badness 10000) in alignment at lines 1684--1702
 [][]
  []
 
 Missing character: There is no γ in font cmmi12!
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 1738--1738
-|[]\TU/SimSun(0)/bx/n/12 带 状 线 性 方 程 组|
- []
-
 File: figures/Figure_7.png Graphic file (type bmp)
 <figures/Figure_7.png>
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
-|[]\TU/DejaVuSerif(0)/bx/n/12 Toeplitz \TU/SimSun(0)/bx/n/12 线 性 方 程 组|
- []
 
 [33] [34]
 Missing character: There is no β in font cmmi12!
 Missing character: There is no α in font cmmi12!
 
-Underfull \hbox (badness 10000) in alignment at lines 1843--1856
+Underfull \hbox (badness 10000) in alignment at lines 1840--1853
 [][]
  []
 
 [35]
-Underfull \hbox (badness 10000) in alignment at lines 1880--1897
+Underfull \hbox (badness 10000) in alignment at lines 1877--1894
 [][]
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 1913--1913
+Underfull \hbox (badness 1077) in paragraph at lines 1910--1910
 []\TU/DejaVuSerif(0)/m/n/12 Fast but unsta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1915
+Underfull \hbox (badness 10000) in paragraph at lines 1912--1912
 []\TU/DejaVuSerif(0)/m/n/12 Superfast and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1914--1914
 []\TU/DejaVuSerif(0)/m/n/12 Superfast pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1917--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1914--1914
 []\TU/DejaVuSerif(0)/m/n/12 O(n log
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1933--1933
-|[]\TU/SimSun(0)/bx/n/12 扰 动 分 析|
- []
-
-Missing character: There is no δ in font cmmi12!
-Missing character: There is no δ in font cmmi12!
 Missing character: There is no δ in font cmmi12!
 [36]
 Missing character: There is no δ in font cmmi12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1954--1954
-|[]$\OML/cmm/m/it/12 x$ \TU/SimSun(0)/bx/n/12 与 $[]$ 的 关 系|
- []
+Missing character: There is no δ in font cmmi12!
+Missing character: There is no δ in font cmmi12!
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1954.
+(hyperref)                removing `math shift' on input line 1951.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1954.
+(hyperref)                removing `math shift' on input line 1951.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1954.
+(hyperref)                removing `math shift' on input line 1951.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1954.
+(hyperref)                removing `math shift' on input line 1951.
 
 Missing character: There is no δ in font cmmi12!
+Missing character: There is no δ in font cmmi12!
+Missing character: There is no δ in font cmmi12!
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1966.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1966.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1966.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1966.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1966.
+
 [37]
 Missing character: There is no δ in font cmmi12!
-Missing character: There is no δ in font cmmi12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1969--1969
-|[]$\OML/cmm/m/it/12 x$ \TU/SimSun(0)/bx/n/12 与 $\OML/cmm/m/it/12 x[]$ \TU/SimS
-un(0)/bx/n/12 的 关 系|
- []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1969.
+(hyperref)                removing `math shift' on input line 2011.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1969.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1969.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1969.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1969.
-
-Missing character: There is no δ in font cmmi12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 2014--2014
-|[]$\OML/cmm/m/it/12 x$ \TU/SimSun(0)/bx/n/12 与 残 量 的 关 系|
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2014.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2014.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2025--2025
-|[]\TU/SimSun(0)/bx/n/12 相 对 扰 动 分 析|
- []
+(hyperref)                removing `math shift' on input line 2011.
 
 [38]
 Missing character: There is no δ in font cmmi12!
@@ -2455,46 +2364,11 @@ Missing character: There is no ε in font cmmi12!
 Missing character: There is no δ in font cmmi12!
 Missing character: There is no δ in font cmmi12!
 Missing character: There is no δ in font cmmi12!
- [39]
 Missing character: There is no ε in font cmmi12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 2107--2107
-|[]\TU/SimSun(0)/bx/n/12 误 差 分 析|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2113--2113
-|[]\TU/DejaVuSerif(0)/bx/n/12 LU \TU/SimSun(0)/bx/n/12 分 解 的 舍 入 误 差 分 析|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2129
-|[]\TU/DejaVuSerif(0)/bx/n/12 Gauss \TU/SimSun(0)/bx/n/12 消 去 法 的 舍 入 误 差 分 析|
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 2150--2150
-|[]\TU/SimSun(0)/bx/n/12 解 的 改 进 和 条 件 数 估 计|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2158--2158
-|[]\TU/SimSun(0)/bx/n/12 高 精 度 运 算|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2163--2163
-|[]\TU/SimSun(0)/bx/n/12 矩 阵 元 素 缩 放 \TU/DejaVuSerif(0)/bx/n/12 (Scaling)|
- []
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 2188--2188
-|[]\TU/SimSun(0)/bx/n/12 迭 代 改 进 法|
- []
-
+ [39] [40]
 Missing character: There is no ˆ in font cmmi12!
 
-Underfull \hbox (badness 10000) in alignment at lines 2201--2213
+Underfull \hbox (badness 10000) in alignment at lines 2198--2210
 [][]
  []
 
@@ -2503,288 +2377,416 @@ Missing character: There is no κ in font cmmi12!
 Missing character: There is no ε in font cmmi12!
 Missing character: There is no κ in font cmmi12!
 Missing character: There is no ε in font cmmi12!
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 2242--2242
-|[]\TU/SimSun(0)/bx/n/12 引 言|
- []
+[41] [42] [43]
+Underfull \hbox (badness 10000) in paragraph at lines 2322--2326
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2259--2259
-|[]\TU/SimSun(0)/bx/n/12 欠 定 方 程 组|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2277--2277
-|[]\TU/SimSun(0)/bx/n/12 超 定 方 程 组|
- []
-
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 2286--2286
-|[]\TU/SimSun(0)/bx/n/12 初 等 变 换 矩 阵|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2291--2291
-|[]\TU/SimSun(0)/bx/n/12 初 等 矩 阵|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2303--2303
-|[]\TU/DejaVuSerif(0)/bx/n/12 Gauss \TU/SimSun(0)/bx/n/12 变 换|
  []
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 2321--2321
-|[]\TU/DejaVuSerif(0)/bx/n/12 Householder \TU/SimSun(0)/bx/n/12 变 换|
- []
-
 File: figuresl/figure1.png Graphic file (type bmp)
 <figuresl/figure1.png>
-[45] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 2425--2425
-|[]\TU/DejaVuSerif(0)/bx/n/12 Givens \TU/SimSun(0)/bx/n/12 变 换|
+ [45]
+Underfull \hbox (badness 10000) in paragraph at lines 2413--2414
+
  []
 
-[47] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 2474--2474
-|[]\TU/SimSun(0)/bx/n/12 正 交 变 换 的 舍 入 误 差 分 析|
- []
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2435
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2495--2495
-|[]\TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 分 解|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2504--2504
-|[]\TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 分 解 的 存 在 唯 一 性|
+Underfull \hbox (badness 10000) in paragraph at lines 2436--2437
+
  []
 
-[49] [50]
-Underfull \hbox (badness 10000) in paragraph at lines 2590--2590
-|[]\TU/SimSun(0)/bx/n/12 基 于 \TU/DejaVuSerif(0)/bx/n/12 MGS \TU/SimSun(0)/bx/n/
-12 的 \TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 分 解|
+
+Underfull \hbox (badness 10000) in paragraph at lines 2438--2440
+
  []
 
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 2615--2615
-|[]\TU/SimSun(0)/bx/n/12 基 于 \TU/DejaVuSerif(0)/bx/n/12 Householder \TU/SimSun(
-0)/bx/n/12 变 换 的 \TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 分 解|
+
+Underfull \hbox (badness 10000) in paragraph at lines 2448--2449
+
  []
 
-[52] [53]
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 2450--2451
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2474--2476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2481--2482
+
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2491
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2505--2510
+
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 2526--2528
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2549--2551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2553--2554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2555--2556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2557--2558
+
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 2562--2564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2582--2583
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2584--2585
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2586--2587
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2588--2592
+
+ []
+
+[51] [52]
+Underfull \hbox (badness 10000) in paragraph at lines 2658--2660
+
+ []
+
+[53]
 Missing character: There is no ⊺ in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 2702--2702
-|[]\TU/SimSun(0)/bx/n/12 列 主 元 \TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n
-/12 分 解|
+Underfull \hbox (badness 10000) in paragraph at lines 2688--2689
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2690--2691
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2692--2693
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2694--2695
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2696--2697
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2698--2699
+
  []
 
 [54]
+Underfull \hbox (badness 10000) in paragraph at lines 2704--2706
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2707--2708
+
+ []
+
 Missing character: There is no ， in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 Missing character: There is no 或 in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 2738--2738
-|[]\TU/SimSun(0)/bx/n/12 基 于 \TU/DejaVuSerif(0)/bx/n/12 Givens \TU/SimSun(0)/bx
-/n/12 变 换 的 \TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 分 解|
- []
-
 [55]
 Missing character: There is no 或 in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 2777--2777
-|[]\TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 分 解 的 稳 定 性|
+Underfull \hbox (badness 10000) in paragraph at lines 2755--2760
+
  []
 
 [56]
-Underfull \hbox (badness 10000) in paragraph at lines 2789--2789
-|[]\TU/SimSun(0)/bx/n/12 奇 异 值 分 解|
+Underfull \hbox (badness 10000) in paragraph at lines 2790--2792
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2793--2794
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2795--2796
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2797--2799
+
  []
 
 [57]
-Overfull \hbox (49.31422pt too wide) in paragraph at lines 2829--2830
-[]\TU/SimSun(0)/bx/n/12 若 $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12
- ) = \OML/cmm/m/it/12 r \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 n$\TU/SimSun(0)/b
-x/n/12 ，|  则 $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ) = [] []$\T
-U/SimSun(0)/bx/n/12 ，| $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ) 
-= [] []$ 
+Underfull \hbox (badness 10000) in paragraph at lines 2804--2806
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2819
+
+ []
+
+
+Overfull \hbox (46.12282pt too wide) in paragraph at lines 2826--2827
+[]\TU/SimSun(0)/m/n/12 若 $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 
+) = \OML/cmm/m/it/12 r \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 n$\TU/SimSun(0)/m/
+n/12 ，|  则 $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ) = [] []$\TU/
+SimSun(0)/m/n/12 ，| $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ) = [
+] []$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2837--2838
+
  []
 
 [58]
-Underfull \hbox (badness 10000) in paragraph at lines 2921--2921
-|[]\TU/SimSun(0)/bx/n/12 线 性 最 小 二 乘 问 题 的 求 解 方 法|
+Underfull \hbox (badness 10000) in paragraph at lines 2839--2840
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2852--2855
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2871--2873
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2881--2883
+
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 2927--2927
-|[]\TU/SimSun(0)/bx/n/12 正 规 方 程 法|
+Underfull \hbox (badness 10000) in paragraph at lines 2904--2906
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2907--2908
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2912--2914
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2932--2934
+
+ []
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 2939--2941
+
  []
 
 File: figuresl/figure2.png Graphic file (type bmp)
 <figuresl/figure2.png>
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 2984--2984
-|[]\TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 分 解 法|
+
+Underfull \hbox (badness 10000) in paragraph at lines 2946--2956
+
  []
 
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 3012--3012
-|[]\TU/SimSun(0)/bx/n/12 奇 异 值 分 解 法|
- []
+[61] [62]
+Underfull \hbox (badness 10000) in paragraph at lines 3023--3024
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3023--3023
-|[]\TU/SimSun(0)/bx/n/12 广 义 逆 与 最 小 二 乘|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3025--3025
-|[]\TU/SimSun(0)/bx/n/12 广 义 逆 的 定 义|
+Underfull \hbox (badness 10000) in paragraph at lines 3028--3031
+
  []
 
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 3067--3067
-|[]\TU/SimSun(0)/bx/n/12 广 义 逆 的 基 本 性 质|
+
+Underfull \hbox (badness 10000) in paragraph at lines 3032--3033
+
  []
 
 [63]
-Underfull \hbox (badness 10000) in paragraph at lines 3088--3088
-|[]\TU/SimSun(0)/bx/n/12 广 义 逆 的 计 算|
+Underfull \hbox (badness 10000) in paragraph at lines 3046--3048
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3109--3109
-|[]\TU/SimSun(0)/bx/n/12 广 义 逆 与 线 性 最 小 二 乘|
- []
+Underfull \hbox (badness 10000) in paragraph at lines 3049--3050
 
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 3120--3120
-|[]\TU/SimSun(0)/bx/n/12 最 小 二 乘 扰 动 分 析|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3143--3143
-|[]\TU/SimSun(0)/bx/n/12 最 小 二 乘 问 题 的 推 广 及 其 应 用|
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3052
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3145--3145
-|[]\TU/SimSun(0)/bx/n/12 正 则 化|
+Underfull \hbox (badness 10000) in paragraph at lines 3053--3054
+
  []
 
-[65]
-Underfull \hbox (badness 10000) in paragraph at lines 3162--3162
-|[]\TU/SimSun(0)/bx/n/12 加 权 正 则 化|
- []
+[64] [65]
+Underfull \hbox (badness 10000) in paragraph at lines 3131--3133
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3176--3176
-|[]\TU/SimSun(0)/bx/n/12 约 束 最 小 二 乘 问 题|
- []
-
-[66]
-Underfull \hbox (badness 10000) in paragraph at lines 3193--3193
-|[]\TU/SimSun(0)/bx/n/12 应 用\TU/DejaVuSerif(0)/bx/n/12 : \TU/SimSun(0)/bx/n/12 
-多 项 式 数 据 拟 合|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3214--3214
-|[]\TU/SimSun(0)/bx/n/12 应 用\TU/DejaVuSerif(0)/bx/n/12 : \TU/SimSun(0)/bx/n/12 
-线 性 预 测|
+Underfull \hbox (badness 10000) in paragraph at lines 3137--3140
+
  []
 
+[66] [67]
 Missing character: There is no 或 in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 3240--3240
-|[]\TU/SimSun(0)/bx/n/12 应 用\TU/DejaVuSerif(0)/bx/n/12 : \TU/SimSun(0)/bx/n/12 
-信 号 处 理|
- []
-
-[67]
+ [68]
 File: figuresl/figure3.png Graphic file (type bmp)
 <figuresl/figure3.png>
 
-Overfull \hbox (15.53767pt too wide) in paragraph at lines 3249--3250
+Overfull \hbox (15.53767pt too wide) in paragraph at lines 3246--3247
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3265--3265
-|[]\TU/SimSun(0)/bx/n/12 非 对 称 矩 阵 的 特 征 值 问 题|
+Underfull \hbox (badness 10000) in paragraph at lines 3263--3266
+
  []
 
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 3287--3287
-|[]\TU/SimSun(0)/bx/n/12 幂 迭 代|
+
+Underfull \hbox (badness 10000) in paragraph at lines 3267--3269
+
  []
 
-[69]
-Underfull \hbox (badness 10000) in paragraph at lines 3349--3349
-|[]\TU/SimSun(0)/bx/n/12 反 迭 代|
+
+Underfull \hbox (badness 10000) in paragraph at lines 3274--3275
+
  []
 
-[70]
-Underfull \hbox (badness 10000) in paragraph at lines 3375--3375
-|[]\TU/DejaVuSerif(0)/bx/n/12 Rayleigh \TU/SimSun(0)/bx/n/12 商 迭 代|
+[69] [70]
+Underfull \hbox (badness 10000) in paragraph at lines 3324--3328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3347--3349
+
  []
 
 [71]
-Underfull \hbox (badness 10000) in paragraph at lines 3402--3402
-|[]\TU/SimSun(0)/bx/n/12 正 交 迭 代|
+Underfull \hbox (badness 10000) in paragraph at lines 3373--3374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3375--3378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3379--3381
+
  []
 
 [72]
-Underfull \hbox (badness 10000) in paragraph at lines 3453--3453
-|[]\TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 迭 代|
+Underfull \hbox (badness 10000) in paragraph at lines 3392--3393
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3455--3455
-|[]\TU/SimSun(0)/bx/n/12 算 法 介 绍|
+Underfull \hbox (badness 10000) in paragraph at lines 3394--3395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3400--3403
+
  []
 
 [73]
-Underfull \hbox (badness 10000) in paragraph at lines 3481--3481
-|[]\TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 迭 代 与 幂 迭 代 的 关 系|
+Underfull \hbox (badness 10000) in paragraph at lines 3442--3444
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3508--3508
-|[]\TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 迭 代 与 反 迭 代 的 关 系|
+Underfull \hbox (badness 10000) in paragraph at lines 3453--3455
+
  []
 
-[74]
+[74] [75]
 Missing character: There is no 结 in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 Missing character: There is no 论 in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 3543--3543
-|[]\TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 迭 代 与 正 交 迭 代 的 关 系|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3549--3549
-|[]\TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/12 迭 代 的 收 敛 性|
- []
-
-[75]
+ [76]
 File: figuresl/figure4.png Graphic file (type bmp)
 <figuresl/figure4.png>
 File: figuresl/figure5.png Graphic file (type bmp)
 <figuresl/figure5.png>
 File: figuresl/figure6.png Graphic file (type bmp)
 <figuresl/figure6.png>
- [76] [77]
-Underfull \hbox (badness 10000) in paragraph at lines 3576--3576
-|[]\TU/SimSun(0)/bx/n/12 带 位 移 的 \TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx
-/n/12 迭 代|
+ [77] [78]
+Underfull \hbox (badness 10000) in paragraph at lines 3574--3576
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3585--3586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3597--3600
+
  []
 
 Missing character: There is no 见 in font DejaVu Serif/OT:script=latn;language=D
@@ -2794,508 +2796,232 @@ File: figuresl/figure7.png Graphic file (type bmp)
 File: figuresl/figure8.png Graphic file (type bmp)
 <figuresl/figure8.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3612--3612
-|[]\TU/SimSun(0)/bx/n/12 带 位 移 的 隐 式 \TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0
-)/bx/n/12 迭 代|
+Underfull \hbox (badness 10000) in paragraph at lines 3610--3614
+
  []
 
-[78] [79]
-Underfull \hbox (badness 10000) in paragraph at lines 3624--3624
-|[]\TU/SimSun(0)/bx/n/12 上 \TU/DejaVuSerif(0)/bx/n/12 Hessenberg \TU/SimSun(0)/
-bx/n/12 矩 阵|
- []
-
+[79] [80]
 Missing character: There is no 和 in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 Missing character: There is no 和 in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
-[80] [81]
-Underfull \hbox (badness 10000) in paragraph at lines 3724--3724
-|[]\TU/SimSun(0)/bx/n/12 隐 式 \TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/1
-2 迭 代|
- []
-
-[82] [83] [84]
-Underfull \hbox (badness 10000) in paragraph at lines 3802--3802
-|[]\TU/SimSun(0)/bx/n/12 位 移 的 选 取|
- []
-
-[85] [86] [87]
-Underfull \hbox (badness 10000) in paragraph at lines 3892--3892
-|[]\TU/SimSun(0)/bx/n/12 收 缩 \TU/DejaVuSerif(0)/bx/n/12 Deflation|
- []
-
-[88]
-Underfull \hbox (badness 10000) in paragraph at lines 3900--3900
-|[]\TU/SimSun(0)/bx/n/12 特 征 向 量 的 计 算|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3921--3921
-|[]\TU/SimSun(0)/bx/n/12 广 义 特 征 值 问 题|
- []
-
-[89]
-Underfull \hbox (badness 10000) in paragraph at lines 3943--3943
-|[]\TU/SimSun(0)/bx/n/12 广 义 \TU/DejaVuSerif(0)/bx/n/12 Schur \TU/SimSun(0)/bx/
-n/12 分 解|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3962--3962
-|[]\TU/DejaVuSerif(0)/bx/n/12 QZ \TU/SimSun(0)/bx/n/12 迭 代|
- []
-
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 3966--3966
-|[]\TU/SimSun(0)/bx/n/12 应 用：|  多 项 式 求 根|
- []
-
-[91]
-Underfull \hbox (badness 10000) in paragraph at lines 4016--4016
-|[]\TU/DejaVuSerif(0)/bx/n/12 Jacobi \TU/SimSun(0)/bx/n/12 迭 代|
- []
-
+ [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92]
 File: figurest/figure_1.png Graphic file (type bmp)
 <figurest/figure_1.png>
 
-Overfull \hbox (21.53596pt too wide) in paragraph at lines 4035--4036
+Overfull \hbox (21.53596pt too wide) in paragraph at lines 4032--4033
  [][] 
  []
 
-[92] [93] [94]
-Underfull \hbox (badness 10000) in paragraph at lines 4119--4119
-|[]\TU/DejaVuSerif(0)/bx/n/12 Raylaogh \TU/SimSun(0)/bx/n/12 商 迭 代|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4127--4127
-|[]\TU/SimSun(0)/bx/n/12 对 称 \TU/DejaVuSerif(0)/bx/n/12 QR \TU/SimSun(0)/bx/n/1
-2 迭 代|
- []
-
-[95]
-Underfull \hbox (badness 10000) in paragraph at lines 4184--4184
-|[]\TU/SimSun(0)/bx/n/12 分 而 治 之 法|
- []
-
-
-Overfull \hbox (15.58089pt too wide) detected at line 4219
+[93] [94] [95] [96]
+Overfull \hbox (14.49104pt too wide) detected at line 4216
 [][]
  []
 
-[96] [97]
+[97] [98]
 File: figurest/figure_2.png Graphic file (type bmp)
 <figurest/figure_2.png>
- [98] [99]
+ [99] [100]
 File: figurest/figure_3.png Graphic file (type bmp)
 <figurest/figure_3.png>
- [100] [101]
-Underfull \hbox (badness 10000) in paragraph at lines 4373--4373
-|[]\TU/SimSun(0)/bx/n/12 对 分 法 和 逆 迭 代|
+ [101] [102] [103] [104] [105] [106]
+Overfull \hbox (40.93057pt too wide) in paragraph at lines 4493--4493
+\TU/SimSun(0)/m/n/12 称 三 对 角 矩 阵，|  且 $\OML/cmm/m/it/12 T[]$ \TU/SimSun(0)/m/n/
+12 的 主 对 角 线 元 素 全 为 \TU/DejaVuSerif(0)/m/n/12 0\TU/SimSun(0)/m/n/12 ，|  次 对 角 
+线 元 素 为 $\OML/cmm/m/it/12 a[]; b[]; a[]; b[]; [] ; a[]; b[]; a[]$\TU/SimSun(0)/
+m/n/12 。|
  []
 
-[102] [103] [104]
-Underfull \hbox (badness 10000) in paragraph at lines 4457--4457
-|[]\TU/SimSun(0)/bx/n/12 奇 异 值 分 解|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4468--4468
-|[]\TU/SimSun(0)/bx/n/12 二 对 角 化|
- []
-
-[105]
-Overfull \hbox (45.3212pt too wide) in paragraph at lines 4496--4496
-\TU/SimSun(0)/bx/n/12 称 三 对 角 矩 阵，|  且 $\OML/cmm/m/it/12 T[]$ \TU/SimSun(0)/bx/
-n/12 的 主 对 角 线 元 素 全 为 \TU/DejaVuSerif(0)/bx/n/12 0\TU/SimSun(0)/bx/n/12 ，|  次 
-对 角 线 元 素 为 $\OML/cmm/m/it/12 a[]; b[]; a[]; b[]; [] ; a[]; b[]; a[]$\TU/SimSun
-(0)/bx/n/12 。|
- []
-
-[106] [107]
-Underfull \hbox (badness 10000) in paragraph at lines 4525--4525
-|[]\TU/DejaVuSerif(0)/bx/n/12 Golub-Kahan SVD \TU/SimSun(0)/bx/n/12 算 法|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4550--4550
-|[]\TU/DejaVuSerif(0)/bx/n/12 dqds \TU/SimSun(0)/bx/n/12 算 法|
- []
-
-[108] [109] [110]
-Underfull \hbox (badness 10000) in paragraph at lines 4639--4639
-|[]\TU/DejaVuSerif(0)/bx/n/12 Jacobi \TU/SimSun(0)/bx/n/12 算 法|
- []
-
-[111]
-Underfull \hbox (badness 10000) in paragraph at lines 4686--4686
-|[]\TU/SimSun(0)/bx/n/12 扰 动 分 析|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4693--4693
-|[]\TU/SimSun(0)/bx/n/12 特 征 值 与 \TU/DejaVuSerif(0)/bx/n/12 Rayleigh \TU/SimSun
-(0)/bx/n/12 商|
- []
-
-[112] [113]
-Underfull \hbox (badness 10000) in paragraph at lines 4754--4754
-|[]\TU/SimSun(0)/bx/n/12 对 称 矩 阵 特 征 值 的 扰 动 分 析|
- []
-
-[114]
+[107] [108] [109] [110] [111] [112] [113] [114]
 Missing character: There is no ， in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 4789--4789
-|[]\TU/SimSun(0)/bx/n/12 对 称 矩 阵 特 征 向 量 的 扰 动|
- []
-
+ [115]
 Missing character: There is no ， in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
-[115]
-Underfull \hbox (badness 10000) in paragraph at lines 4822--4822
-|[]\TU/DejaVuSerif(0)/bx/n/12 Rayleigh \TU/SimSun(0)/bx/n/12 商 逼 近|
- []
+ [116] [117]
+Underfull \hbox (badness 10000) in paragraph at lines 4871--4872
 
-[116]
-Underfull \hbox (badness 10000) in paragraph at lines 4842--4842
-|[]\TU/SimSun(0)/bx/n/12 相 对 扰 动 分 析|
- []
-
-[117]
-Underfull \hbox (badness 10000) in paragraph at lines 4886--4886
-|[]\TU/SimSun(0)/bx/n/12 离 散 \TU/DejaVuSerif(0)/bx/n/12 Poisson \TU/SimSun(0)/b
-x/n/12 方 程|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4888--4888
-|[]\TU/SimSun(0)/bx/n/12 一 维 \TU/DejaVuSerif(0)/bx/n/12 Poisson \TU/SimSun(0)/b
-x/n/12 方 程|
- []
+Underfull \hbox (badness 10000) in paragraph at lines 4872--4874
 
-[118]
-Underfull \hbox (badness 10000) in paragraph at lines 4916--4916
-| \TU/SimSun(0)/bx/n/12 系 数 矩 阵 $\OML/cmm/m/it/12 T[]$ \TU/SimSun(0)/bx/n/12 的 
-性 质|
- []
-
-[119]
-Underfull \hbox (badness 10000) in paragraph at lines 4956--4956
-|[]\TU/SimSun(0)/bx/n/12 二 维 \TU/DejaVuSerif(0)/bx/n/12 Poisson \TU/SimSun(0)/b
-x/n/12 方 程|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4964--4964
-| \TU/SimSun(0)/bx/n/12 五 点 差 分 离 散|
- []
+Underfull \hbox (badness 10000) in paragraph at lines 4874--4875
 
-[120]
-Underfull \hbox (badness 10000) in paragraph at lines 4992--4992
-| \TU/SimSun(0)/bx/n/12 系 数 矩 阵 \TU/DejaVuSerif(0)/bx/n/12 T \TU/SimSun(0)/bx/n
-/12 的 性 质|
- []
-
-[121]
-Underfull \hbox (badness 10000) in paragraph at lines 5005--5005
-| \TU/SimSun(0)/bx/n/12 二 维 离 散 \TU/DejaVuSerif(0)/bx/n/12 Poisson \TU/SimSun(0
-)/bx/n/12 方 程 的 常 用 算 法|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5030--5030
-|[]\TU/SimSun(0)/bx/n/12 定 常 迭 代 方 法|
+Underfull \hbox (badness 10000) in paragraph at lines 4875--4879
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4880--4883
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4884--4885
+
+ []
+
+[118] [119] [120] [121]
+Overfull \hbox (5.70734pt too wide) in paragraph at lines 5003--5027
+[][] 
  []
 
 [122]
-Underfull \hbox (badness 10000) in paragraph at lines 5069--5069
-|[]\TU/SimSun(0)/bx/n/12 矩 阵 分 裂 迭 代 方 法|
- []
+Underfull \hbox (badness 10000) in paragraph at lines 5095--5113
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
-|\TU/SimSun(0)/bx/n/12 定 义  |（矩 阵 分 裂 \TU/DejaVuSerif(0)/bx/n/12 Matrix splitti
-ng\TU/SimSun(0)/bx/n/12 ）| |
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5083--5083
-|[]\TU/DejaVuSerif(0)/bx/n/12 Jacobi \TU/SimSun(0)/bx/n/12 迭 代|
  []
 
 [123]
-Underfull \hbox (badness 10000) in paragraph at lines 5120--5120
-|\TU/SimSun(0)/bx/n/12 二 维 离 散 \TU/DejaVuSerif(0)/bx/n/12 poisson \TU/SimSun(0)
-/bx/n/12 方 程 \TU/DejaVuSerif(0)/bx/n/12 Jacobi \TU/SimSun(0)/bx/n/12 迭 代 方 法|
- []
+Underfull \hbox (badness 10000) in paragraph at lines 5115--5117
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5138--5138
-|[]\TU/DejaVuSerif(0)/bx/n/12 Gauss-Seidel \TU/SimSun(0)/bx/n/12 迭 代|
  []
 
 [124]
-Underfull \hbox (badness 10000) in paragraph at lines 5170--5170
-|\TU/DejaVuSerif(0)/bx/n/12 G-S \TU/SimSun(0)/bx/n/12 算 法 的 并 行 计 算\TU/DejaVuSe
-rif(0)/bx/n/12 : \TU/SimSun(0)/bx/n/12 红 黑 排 序|
+Underfull \hbox (badness 10000) in paragraph at lines 5151--5167
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5174--5176
+Underfull \hbox (badness 10000) in paragraph at lines 5171--5173
 
  []
 
 File: figurest/figure_1.png Graphic file (type bmp)
 <figurest/figure_1.png>
 
-Overfull \hbox (2.54295pt too wide) in paragraph at lines 5173--5182
+Overfull \hbox (2.54295pt too wide) in paragraph at lines 5170--5179
 []$[]$  [] 
  []
 
 File: figurest/figure_1.png Graphic file (type bmp)
 <figurest/figure_1.png>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 5189--5206
+
+ []
 
 [125]
-Underfull \hbox (badness 10000) in paragraph at lines 5209--5209
-|[]\TU/DejaVuSerif(0)/bx/n/12 SOR \TU/SimSun(0)/bx/n/12 迭 代|
+Underfull \hbox (badness 10000) in paragraph at lines 5230--5265
+
  []
 
-[126]
-Underfull \hbox (badness 10000) in paragraph at lines 5268--5268
-|[]\TU/DejaVuSerif(0)/bx/n/12 SSOR \TU/SimSun(0)/bx/n/12 迭 代 方 法|
- []
+[126] [127]
+Underfull \hbox (badness 10000) in paragraph at lines 5286--5290
 
-[127]
-Underfull \hbox (badness 10000) in paragraph at lines 5293--5293
-|[]\TU/DejaVuSerif(0)/bx/n/12 AOR \TU/SimSun(0)/bx/n/12 迭 代|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5308--5308
-|[]\TU/DejaVuSerif(0)/bx/n/12 Richardson \TU/SimSun(0)/bx/n/12 算 法|
  []
 
 [128]
-Underfull \hbox (badness 10000) in paragraph at lines 5334--5334
-|[]\TU/SimSun(0)/bx/n/12 分 块 迭 代 方 法|
- []
-
 File: figurest/figure_2.png Graphic file (type bmp)
 <figurest/figure_2.png>
+ [129] [130] [131]
+Underfull \hbox (badness 10000) in paragraph at lines 5428--5432
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5355--5355
-|[]\TU/SimSun(0)/bx/n/12 收 敛 性 分 析|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5357--5357
-|[]\TU/SimSun(0)/bx/n/12 定 常 迭 代 方 法 的 收 敛 性|
- []
-
-[129]
-Underfull \hbox (badness 10000) in paragraph at lines 5362--5362
-|\TU/SimSun(0)/bx/n/12 矩 阵 谱 半 径|
- []
-
-[130]
-Underfull \hbox (badness 10000) in paragraph at lines 5381--5381
-|\TU/SimSun(0)/bx/n/12 迭 代 方 法 收 敛 性 判 断|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5406--5406
-|[]\TU/SimSun(0)/bx/n/12 二 维 离 散 \TU/DejaVuSerif(0)/bx/n/12 Poisson \TU/SimSun(
-0)/bx/n/12 方 程 情 形|
- []
-
-[131]
-Underfull \hbox (badness 10000) in paragraph at lines 5435--5435
-|[]\TU/DejaVuSerif(0)/bx/n/12 G-S \TU/SimSun(0)/bx/n/12 算 法 和 \TU/DejaVuSerif(0
-)/bx/n/12 SOR \TU/SimSun(0)/bx/n/12 算 法[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5446--5446
-|\TU/DejaVuSerif(0)/bx/n/12 SOR \TU/SimSun(0)/bx/n/12 与 \TU/DejaVuSerif(0)/bx/n
-/12 Jacobi|
  []
 
 File: figurest/figure_3.png Graphic file (type bmp)
 <figurest/figure_3.png>
-[132]
-Underfull \hbox (badness 10000) in paragraph at lines 5468--5468
-|[]\TU/SimSun(0)/bx/n/12 不 可 约 对 角 占 优|
- []
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5480--5480
-|[]\TU/SimSun(0)/bx/n/12 对 称 正 定 矩 阵|
- []
+[132] [133] [134] [135]
+Underfull \hbox (badness 10000) in paragraph at lines 5586--5588
 
-[133]
-Underfull \hbox (badness 10000) in paragraph at lines 5500--5500
-|[]\TU/SimSun(0)/bx/n/12 相 容 次 序 矩 阵|
- []
-
-[134]
-Underfull \hbox (badness 10000) in paragraph at lines 5552--5552
-|[]\TU/SimSun(0)/bx/n/12 加 速 算 法|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5554--5554
-|[]\TU/SimSun(0)/bx/n/12 外 推 技 术|
- []
-
-[135]
-Underfull \hbox (badness 10000) in paragraph at lines 5581--5581
-|\TU/DejaVuSerif(0)/bx/n/12 JOR \TU/SimSun(0)/bx/n/12 算 法|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5591--5591
-|[]\TU/DejaVuSerif(0)/bx/n/12 Chebyshev \TU/SimSun(0)/bx/n/12 加 速|
  []
 
 [136]
-Underfull \hbox (badness 10000) in paragraph at lines 5638--5638
-|\TU/DejaVuSerif(0)/bx/n/12 Chebyshev \TU/SimSun(0)/bx/n/12 多 项 式|
+Underfull \hbox (badness 10000) in paragraph at lines 5631--5635
+
  []
 
-[137]
-Underfull \hbox (badness 10000) in paragraph at lines 5670--5670
-|\TU/DejaVuSerif(0)/bx/n/12 Chebyshev \TU/SimSun(0)/bx/n/12 加 速 方 法|
- []
+[137] [138]
+Underfull \hbox (badness 10000) in paragraph at lines 5697--5714
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5683--5683
-|$[]$ \TU/SimSun(0)/bx/n/12 的 计 算|
- []
-
-[138]
-Underfull \hbox (badness 10000) in paragraph at lines 5717--5717
-|\TU/DejaVuSerif(0)/bx/n/12 SSOR \TU/SimSun(0)/bx/n/12 算 法 的 \TU/DejaVuSerif(0)
-/bx/n/12 Chebyshev \TU/SimSun(0)/bx/n/12 加 速|
  []
 
 [139]
-Underfull \hbox (badness 10000) in paragraph at lines 5732--5732
-|[]\TU/SimSun(0)/bx/n/12 交 替 方 向 与 \TU/DejaVuSerif(0)/bx/n/12 HSS \TU/SimSun(0)
-/bx/n/12 算 法|
+Underfull \hbox (badness 10000) in paragraph at lines 5726--5729
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5733--5733
-|[]\TU/SimSun(0)/bx/n/12 多 步 迭 代 法|
- []
+Underfull \hbox (badness 10000) in paragraph at lines 5753--5755
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5746--5746
-|[]\TU/SimSun(0)/bx/n/12 交 替 方 向 法|
  []
 
 [140]
-Underfull \hbox (badness 10000) in paragraph at lines 5758--5758
-|[]\TU/DejaVuSerif(0)/bx/n/12 HSS \TU/SimSun(0)/bx/n/12 方 法|
+Underfull \hbox (badness 10000) in paragraph at lines 5759--5762
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5769--5769
-|\TU/SimSun(0)/bx/n/12 参 数 $\OML/cmm/m/it/12 ^^K$ \TU/SimSun(0)/bx/n/12 的 选 取|
+Underfull \hbox (badness 10000) in paragraph at lines 5764--5766
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5783--5783
-|[]\TU/SimSun(0)/bx/n/12 快 速 \TU/DejaVuSerif(0)/bx/n/12 Poisson \TU/SimSun(0)/b
-x/n/12 算 法|
+Underfull \hbox (badness 10000) in paragraph at lines 5778--5780
+
  []
 
 [141]
-Underfull \hbox (badness 10000) in paragraph at lines 5812--5812
-|\TU/SimSun(0)/bx/n/12 离 散 \TU/DejaVuSerif(0)/bx/n/12 Sine \TU/SimSun(0)/bx/n/1
-2 变 换|
+Underfull \hbox (badness 10000) in paragraph at lines 5807--5809
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5826--5826
-|\TU/DejaVuSerif(0)/bx/n/12 Possion \TU/SimSun(0)/bx/n/12 方 程 与 \TU/DejaVuSerif
-(0)/bx/n/12 DST|
+Underfull \hbox (badness 10000) in paragraph at lines 5821--5823
+
  []
 
 [142]
-Underfull \hbox (badness 10000) in paragraph at lines 5866--5866
-|\TU/SimSun(0)/bx/n/12 基 本 思 想|
+Underfull \hbox (badness 10000) in paragraph at lines 5866--5867
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5867--5868
+
  []
 
 [143]
-Underfull \hbox (badness 10000) in paragraph at lines 5879--5879
-|[][]\TU/DejaVuSerif(0)/bx/n/12 Krylov \TU/SimSun(0)/bx/n/12 子 空 间[]|
+Underfull \hbox (badness 10000) in paragraph at lines 5875--5876
+
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 5879.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5891--5891
-|\TU/SimSun(0)/bx/n/12 基 的 选 取\TU/DejaVuSerif(0)/bx/n/12 : Arnoldi \TU/SimSun(0
-)/bx/n/12 过 程|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5905--5905
-|\TU/DejaVuSerif(0)/bx/n/12 Arnoldi \TU/SimSun(0)/bx/n/12 过 程 的 矩 阵 表 示|
- []
+(hyperref)                removing `\@ifnextchar' on input line 5876.
 
 [144] [145]
-Underfull \hbox (badness 10000) in paragraph at lines 5989--5989
-|\TU/SimSun(0)/bx/n/12 如 何 计 算 $\OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 + \OMS/cms
-y/m/n/12 K[]$ \TU/SimSun(0)/bx/n/12 中 的  |“最 佳 近 似”| $\OML/cmm/m/it/12 x[]$|
+Underfull \hbox (badness 10000) in paragraph at lines 5987--5988
+
  []
 
 [146]
-Underfull \hbox (badness 10000) in paragraph at lines 5991--5991
-|[]\TU/SimSun(0)/bx/n/12 什 么 是  |“最 佳”| []|
- []
+Underfull \hbox (badness 10000) in paragraph at lines 5993--5994
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 5997--5997
-|[]\TU/DejaVuSerif(0)/bx/n/12 GMRES \TU/SimSun(0)/bx/n/12 算 法|
  []
 
 [147]
-Underfull \hbox (badness 10000) in paragraph at lines 6040--6040
-|\TU/SimSun(0)/bx/n/12 实 施 细 节|
- []
+Underfull \hbox (badness 10000) in paragraph at lines 6043--6044
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 6047--6047
-|\TU/SimSun(0)/bx/n/12 最 小 二 乘 问 题 的 求 解|
  []
 
 [148]
-Underfull \hbox (badness 10000) in paragraph at lines 6061--6061
-|$\OML/cmm/m/it/12 H[]$ \TU/SimSun(0)/bx/n/12 的 \TU/DejaVuSerif(0)/bx/n/12 QR \
-TU/SimSun(0)/bx/n/12 分 解 的 递 推 计 算 方 法|
+Underfull \hbox (badness 10000) in paragraph at lines 6059--6060
+
  []
 
 [149]
-Underfull \hbox (badness 10000) in paragraph at lines 6107--6107
-|\TU/SimSun(0)/bx/n/12 实 用 \TU/DejaVuSerif(0)/bx/n/12 GMRES \TU/SimSun(0)/bx/n/
-12 算 法|
- []
-
-
-Overfull \hbox (46.70517pt too wide) in paragraph at lines 6108--6156
- [][] 
+Overfull \hbox (65.98251pt too wide) in paragraph at lines 6105--6153
+[][] 
  []
 
 [150]
@@ -3303,119 +3029,59 @@ Overfull \vbox (184.22061pt too high) has occurred while \output is active []
 
 
 [151]
-Underfull \hbox (badness 10000) in paragraph at lines 6156--6156
-|\TU/DejaVuSerif(0)/bx/n/12 GMRES \TU/SimSun(0)/bx/n/12 算 法 的 中 断|
+Underfull \hbox (badness 10000) in paragraph at lines 6154--6156
+
  []
 
+[152] [153]
+Underfull \hbox (badness 10000) in paragraph at lines 6253--6255
 
-Underfull \hbox (badness 10000) in paragraph at lines 6159--6159
-|\TU/SimSun(0)/bx/n/12 带 重 启 的 \TU/DejaVuSerif(0)/bx/n/12 GMRES \TU/SimSun(0)/b
-x/n/12 算 法|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6161--6161
-|[]\TU/SimSun(0)/bx/n/12 重 启 技 术[]|
- []
-
-[152]
-Underfull \hbox (badness 10000) in paragraph at lines 6195--6195
-|\TU/SimSun(0)/bx/n/12 带 重 启 的 \TU/DejaVuSerif(0)/bx/n/12 GMRES \TU/SimSun(0)/b
-x/n/12 算 法 需 要 注 意 的 问 题|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6201--6201
-|[]\TU/SimSun(0)/bx/n/12 共 轭 梯 度 法 \TU/DejaVuSerif(0)/bx/n/12 (CG)|
- []
-
-[153]
-Underfull \hbox (badness 10000) in paragraph at lines 6214--6214
-|\TU/DejaVuSerif(0)/bx/n/12 Lanczos \TU/SimSun(0)/bx/n/12 过 程|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6226--6226
-|\TU/DejaVuSerif(0)/bx/n/12 CG \TU/SimSun(0)/bx/n/12 算 法 的 推 导|
  []
 
 [154]
 
-LaTeX Warning: Command \r invalid in math mode on input line 6261.
+LaTeX Warning: Command \r invalid in math mode on input line 6258.
 
 Missing character: There is no ̊ in font cmmi8!
-
-Underfull \hbox (badness 10000) in paragraph at lines 6286--6286
-|[]\TU/SimSun(0)/bx/n/12 系 数 $\OML/cmm/m/it/12 ^^Xm \OT1/cmr/m/n/12 + 1$ \TU/Si
-mSun(0)/bx/n/12 和 $\OML/cmm/m/it/12 ^^V[]$ \TU/SimSun(0)/bx/n/12 的 计 算 方 法[]|
- []
-
 [155]
-Underfull \hbox (badness 10000) in paragraph at lines 6336--6336
-|\TU/SimSun(0)/bx/n/12 共 轭 梯 度 法|
- []
+Underfull \hbox (badness 10000) in paragraph at lines 6331--6333
 
-[156]
-Underfull \hbox (badness 10000) in paragraph at lines 6373--6373
-|[]\TU/SimSun(0)/bx/n/12 收 敛 性 分 析|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6374--6374
-|\TU/DejaVuSerif(0)/bx/n/12 CG \TU/SimSun(0)/bx/n/12 算 法 的 收 敛 性|
+Underfull \hbox (badness 10000) in paragraph at lines 6334--6370
+
  []
 
-[157] [158]
-Underfull \hbox (badness 10000) in paragraph at lines 6423--6423
-|\TU/DejaVuSerif(0)/bx/n/12 CG \TU/SimSun(0)/bx/n/12 算 法 的 超 收 敛 性|
+[156] [157] [158]
+Underfull \hbox (badness 10000) in paragraph at lines 6418--6420
+
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 6447--6447
-|\TU/DejaVuSerif(0)/bx/n/12 GMRES \TU/SimSun(0)/bx/n/12 算 法 的 收 敛 性|
- []
-
-[159]
-Underfull \hbox (badness 10000) in paragraph at lines 6463--6463
-|\TU/SimSun(0)/bx/n/12 非 正 规 情 形|
- []
-
-[160]
-Underfull \hbox (badness 10000) in paragraph at lines 6502--6502
-|\TU/SimSun(0)/bx/n/12 如 果 \TU/DejaVuSerif(0)/bx/n/12 A \TU/SimSun(0)/bx/n/12 不
- 可 以 对 角 化|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6517--6517
-|[]\TU/SimSun(0)/bx/n/12 其 它 \TU/DejaVuSerif(0)/bx/n/12 Krylov \TU/SimSun(0)/bx
-/n/12 子 空 间 迭 代 算 法|
- []
-
-
-Overfull \hbox (117.48643pt too wide) in paragraph at lines 6518--6538
- [][] 
+[159] [160]
+Overfull \hbox (101.23839pt too wide) in paragraph at lines 6515--6535
+[][] 
  []
 
 [161] [162]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6538.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 6538.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6535.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 6535.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 6538.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 6538.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 6535.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 6535.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6538.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6535.
  ) 
 Here is how much of TeX's memory you used:
- 43130 strings out of 493007
- 881271 string characters out of 6136719
- 1037595 words of memory out of 5000000
- 46467 multiletter control sequences out of 15000+600000
- 542494 words of font info for 122 fonts, out of 8000000 for 9000
+ 43093 strings out of 493007
+ 879484 string characters out of 6136719
+ 1040660 words of memory out of 5000000
+ 46441 multiletter control sequences out of 15000+600000
+ 542414 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 50i,17n,80p,10482b,1298s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,17n,80p,10482b,1297s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (162 pages).

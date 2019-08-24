@@ -1009,8 +1009,6 @@ $†$ 需要指出的是: $A$ 非奇异, 则解存在唯一, 但并不一定存�
 	所有顺序主子矩阵 $A_k = A(1:k, 1:k)$ 都非奇异, $k = 1, 2, . . . , n.$	
 \end{theorem}
 
-
-\newpage
 \subsubsection{LU 分解的实现 — 矩阵初等变换}
 给定一个矩阵
 \begin{equation*}
@@ -1019,7 +1017,7 @@ $†$ 需要指出的是: $A$ 非奇异, 则解存在唯一, 但并不一定存�
 
 • 第一步: 假定 $a_{11} \neq  0$, 构造矩阵
 
-\centering {$L_{1}=\left[\begin{array}{ccccc}{1} & {0} & {0} & {\cdots} & {0} \\ {l_{21}} & {1} & {0} & {\cdots} & {0} \\ {l_{31}} & {0} & {1} & {\cdots} & {0} \\ {\vdots} & {} & {} & {\ddots} \\ {l_{n 1}} & {0} & {0} & {\cdots} & {1}\end{array}\right]$ $\text{,其中}$ $l_{i 1}=\frac{a_{i 1}}{a_{11}}, i=2,3, \dots, n $}
+ {$L_{1}=\left[\begin{array}{ccccc}{1} & {0} & {0} & {\cdots} & {0} \\ {l_{21}} & {1} & {0} & {\cdots} & {0} \\ {l_{31}} & {0} & {1} & {\cdots} & {0} \\ {\vdots} & {} & {} & {\ddots} \\ {l_{n 1}} & {0} & {0} & {\cdots} & {1}\end{array}\right]$ $\text{,其中}$ $l_{i 1}=\frac{a_{i 1}}{a_{11}}, i=2,3, \dots, n $}
 \\
 易知 $L_1$ 的逆为
 $$
@@ -1037,7 +1035,7 @@ $$
 • 第二步: 将上面的操作作用在 $A^{(1)}$ 的子矩阵 $A^{(1)}(2 : n, 2 : n)$ 上, 将
 其第一列除第一个元素外都变为 $0:$ 假定$ a^{(1)}_{22} \neq 0$, 构造矩阵
 
-\centering {$L_{2}=\left[\begin{array}{ccccc}{1} & {0} & {0} & {\cdots} & {0} \\ {0} & {1} & {0} & {\cdots} & {0} \\ {0} & {l_{32}} & {1} & {\cdots} & {0} \\ {\vdots} & {\vdots} & {\ddots} & {\ddots} \\ {0} & {l_{n 2}} & {0} & {\cdots} & {1}\end{array}\right]$ $\text{,其中}$ $l_{i 2}=\frac{a_{i 2}^{(1)}}{a_{22}^{(1)}}, i=3,4, \ldots, n$}
+ {$L_{2}=\left[\begin{array}{ccccc}{1} & {0} & {0} & {\cdots} & {0} \\ {0} & {1} & {0} & {\cdots} & {0} \\ {0} & {l_{32}} & {1} & {\cdots} & {0} \\ {\vdots} & {\vdots} & {\ddots} & {\ddots} \\ {0} & {l_{n 2}} & {0} & {\cdots} & {1}\end{array}\right]$ $\text{,其中}$ $l_{i 2}=\frac{a_{i 2}^{(1)}}{a_{22}^{(1)}}, i=3,4, \ldots, n$}\\
 
 用$L_{2}^{-1}$左乘$A^{(1)}$
 , 并将所得到的矩阵记为$A^{(2)}$
@@ -1178,8 +1176,7 @@ end
 \end{lstlisting}
 
 
-\newpage
-\subsubsection{$IKJ$型$LU$分解}
+\subsubsection{IKJ型LU分解}
 如果数据是按行存储的, 如 C/C++, 我们一般采用下面的 IKJ 型 LU 分解.
 \begin{table}  
 	%\caption{设置表格总长}  
@@ -1216,7 +1213,7 @@ end
 
 设 $A = LU$, 即
 
-{$\left[\begin{array}{ccccc}{a_{11}} & {a_{12}} & {a_{13}} & {\cdots} & {a_{1 n}} \\ {a_{21}} & {a_{22}} & {a_{23}} & {\cdots} & {a_{2 n}} \\ {a_{31}} & {a_{32}} & {a_{33}} & {\cdots} & {a_{3 n}} \\ {\vdots} & {} & {} & {\ddots} & {\vdots} \\ {a_{n 1}} & {a_{x 2}} & {a_{x 3}} & {\cdots} & {a_{n n}}\end{array}\right]$ =$\left[\begin{array}{cccc}{1} & {} & {} & {} \\ {l_{21}} & {1} & {} & {} \\ {l_{31}} & {l_{32}} & {1} & {} \\ {\vdots} & {} & {} & {\ddots} \\ {l_{n 1}} & {l_{n 2}} & {\cdots} & {l_{n, n-1}}\end{array}\right]$$ \left[\begin{array}{ccccc}{u_{11}} & {u_{12}} & {u_{13}} & {\cdots} & {u_{1 n}} \\ {} & {u_{22}} & {u_{23}} & {\cdots} & {u_{2 n}} \\ {} & {} & {u_{33}} & {\cdots} & {u_{2 n}} \\ {} & {} & {} & {\ddots} & {\vdots} \\ {} & {} & {} & {} & {u_{n n i}}\end{array}\right] $}
+{$\left[\begin{array}{ccccc}{a_{11}} & {a_{12}} & {a_{13}} & {\cdots} & {a_{1 n}} \\ {a_{21}} & {a_{22}} & {a_{23}} & {\cdots} & {a_{2 n}} \\ {a_{31}} & {a_{32}} & {a_{33}} & {\cdots} & {a_{3 n}} \\ {\vdots} & {} & {} & {\ddots} & {\vdots} \\ {a_{n 1}} & {a_{x 2}} & {a_{x 3}} & {\cdots} & {a_{n n}}\end{array}\right]$ =$\left[\begin{array}{cccc}{1} & {} & {} & {} \\ {l_{21}} & {1} & {} & {} \\ {l_{31}} & {l_{32}} & {1} & {} \\ {\vdots} & {} & {} & {\ddots} \\ {l_{n 1}} & {l_{n 2}} & {\cdots} & {l_{n, n-1}}\end{array}\right]$ $\left[\begin{array}{ccccc}{u_{11}} & {u_{12}} & {u_{13}} & {\cdots} & {u_{1 n}} \\ {} & {u_{22}} & {u_{23}} & {\cdots} & {u_{2 n}} \\ {} & {} & {u_{33}} & {\cdots} & {u_{2 n}} \\ {} & {} & {} & {\ddots} & {\vdots} \\ {} & {} & {} & {} & {u_{n n i}}\end{array}\right] $}
 
 \noindent(1)比较等式两边的第一行, 可得
 
@@ -1326,7 +1323,7 @@ $$L y=b, \quad U x=y$$
 • 此时我们就需要通过 选主元 来解决这个问题.
 
 
-\bfseries{例} 用 LU 分解求解线性方程组 Ax = b, 其中
+{例} 用 LU 分解求解线性方程组 Ax = b, 其中
 \begin{equation}
 A=\left[\begin{array}{cc}{0.02} & {61.3} \\ {3.43} & {-8.5}\end{array}\right], \quad b=\left[\begin{array}{c}{61.5} \\ {25.8}\end{array}\right]
 \end{equation}
@@ -1411,7 +1408,7 @@ end
 \end{lstlisting}
 
 
-\bfseries{例} 用 LU 分解求解线性方程组 Ax = b, 其中
+{例} 用 LU 分解求解线性方程组 Ax = b, 其中
 \begin{equation}
 A=\left[\begin{array}{cc}{0.02} & {61.3} \\ {3.43} & {-8.5}\end{array}\right], \quad b=\left[\begin{array}{c}{61.5} \\ {25.8}\end{array}\right]
 \end{equation}
