@@ -2758,7 +2758,7 @@ $\dagger$对于稠密矩阵而言, 基于 Givens 变换的 QR 分解的运算量
 \textcolor{blue}{基于 Givens 变换的 QR 分解主要用于当矩阵的非零下三角元素相对 较少时的情形, 比如对上 Hessenberg 矩阵进行 QR 分解}\\
 $\dagger$如果 $A \in \mathbb{R}^{m\times n}, m > n$, 仍然可以通过 Givens 变换进行 QR 分解\\
 
-\textcolor{blue}{算法3.4}基于 Givens 变换的 QR 分解\\
+\textcolor{blue}{算法3.4:}基于 Givens 变换的 QR 分解\\
 \textcolor{red}{\%Given $A \in \mathbb{R}^{m\times n}$,compute$Q \in \mathbb{R}^{m×\times m}$ and$R\in \mathbb{R}{m\times n}$ such that $A = QR$\\
 	\% The upper triangular part of R is stored in the upper triangular part of A}
 \begin{enumerate}[1:]
@@ -2818,7 +2818,7 @@ $$
 为 A 的截断 SVD (truncated SVD ).\\
 
 \noindent 奇异值分解基本性质\\
-\textcolor{blue}{定理}设$A=U\left[\begin{array}{l}{\Sigma} \\ {0}\end{array}\right] V^{*}$是$A \in \mathbb{C}^{m \times n}(m \geq n)$的奇异值分解,则
+\textcolor{blue}{定理:}设$A=U\left[\begin{array}{l}{\Sigma} \\ {0}\end{array}\right] V^{*}$是$A \in \mathbb{C}^{m \times n}(m \geq n)$的奇异值分解,则
 \begin{enumerate}[(1)]
 	\item $A^{*} A$ 的特征值是 $\sigma_{i}^{2}$ , 对应的特征向量是 $v_{i}$
 	\item $AA^{*}$的特征值是$\sigma_{i}^{2}$和$m-n$个零，对应的特征向量是$u_{i}$
@@ -3259,7 +3259,7 @@ $$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%                      第五章                        %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{非对称矩阵的特征值问题}
+\subsection{非对称特征值问题}
 \noindent \textbf{非对称矩阵特征值/特征向量的计算}\\
 基本约定1：$A \in \mathbb{R}^{n \times n}$、非对称、稠密\\
 基本约定2:~$\left|\lambda_{1}\right| \geq\left|\lambda_{2}\right| \geq \cdots \geq\left|\lambda_{n}\right| \geq 0$\\
