@@ -1,3 +1,0 @@
-\contentsline {section}{\numberline {1}\color {blue}\relax \fontsize {14.4}{18}\selectfont 离散Poisson方程}{4}{section.1}
-\contentsline {subsection}{\numberline {1.1}\color {blue}一维Poisson方程}{4}{subsection.1.1}
-\contentsfinish 
