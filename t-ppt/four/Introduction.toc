@@ -1,0 +1,21 @@
+\beamer@sectionintoc {1}{幂迭代}{1}{0}{1}
+\beamer@sectionintoc {2}{反迭代}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Rayleigh 商迭代}{9}{0}{2}
+\beamer@sectionintoc {3}{正交迭代}{10}{0}{3}
+\beamer@sectionintoc {4}{QR迭代}{14}{0}{4}
+\beamer@subsectionintoc {4}{1}{算法介绍}{16}{0}{4}
+\beamer@subsectionintoc {4}{2}{QR 迭代与幂迭代的关系}{16}{0}{4}
+\beamer@subsectionintoc {4}{3}{QR迭代与反迭代的关系}{18}{0}{4}
+\beamer@subsectionintoc {4}{4}{QR 迭代与正交迭代的关系}{19}{0}{4}
+\beamer@subsectionintoc {4}{5}{QR迭代的收敛性}{19}{0}{4}
+\beamer@subsectionintoc {4}{6}{带位移的QR迭代}{25}{0}{4}
+\beamer@sectionintoc {5}{带位移的隐式QR迭代}{28}{0}{5}
+\beamer@subsectionintoc {5}{1}{上 Hessenberg 矩阵}{30}{0}{5}
+\beamer@subsectionintoc {5}{2}{隐式QR迭代}{35}{0}{5}
+\beamer@subsectionintoc {5}{3}{位移的选取}{41}{0}{5}
+\beamer@subsectionintoc {5}{4}{收缩Deflation}{48}{0}{5}
+\beamer@sectionintoc {6}{特征向量的计算}{49}{0}{6}
+\beamer@sectionintoc {7}{广义特征值问题}{51}{0}{7}
+\beamer@subsectionintoc {7}{1}{广义Schur分解}{54}{0}{7}
+\beamer@subsectionintoc {7}{2}{QZ迭代}{56}{0}{7}
+\beamer@sectionintoc {8}{应用：多项式求根}{56}{0}{8}

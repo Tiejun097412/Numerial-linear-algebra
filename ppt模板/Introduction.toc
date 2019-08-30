@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{模型的建立}{2}{0}{1}
+\beamer@sectionintoc {2}{有限区间内的初边值问题}{5}{0}{2}
+\beamer@sectionintoc {3}{数值实验}{12}{0}{3}
+\beamer@sectionintoc {4}{参考文献}{20}{0}{4}
