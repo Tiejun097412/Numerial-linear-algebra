@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.17)  30 AUG 2019 17:16
+=======
+<<<<<<< HEAD
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.6.30)  29 AUG 2019 17:18
+||||||| merged common ancestors
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.8.22)  24 AUG 2019 21:36
+=======
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.6.30)  29 AUG 2019 18:30
+>>>>>>> ef1a2b61df122a8d6f8a84417da3d38c202300ca
+>>>>>>> 4b9875f741a764161670aaaee09a56fe89873573
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
