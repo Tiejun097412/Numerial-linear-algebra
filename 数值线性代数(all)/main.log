@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.8.22)  24 AUG 2019 21:36
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.17)  30 AUG 2019 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2171,22 +2171,22 @@ Missing character: There is no µ in font cmmi12!
 Missing character: There is no λ in font cmmi12!
 Missing character: There is no µ in font cmmi12!
  [17]
-Underfull \hbox (badness 10000) in alignment at lines 989--998
+Underfull \hbox (badness 10000) in alignment at lines 984--993
 [][]
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in alignment at lines 1060--1078
+Underfull \hbox (badness 10000) in alignment at lines 1055--1073
 [][]
  []
 
 [20] [21]
-Underfull \hbox (badness 10000) in alignment at lines 1121--1134
+Underfull \hbox (badness 10000) in alignment at lines 1116--1129
 [][]
  []
 
@@ -2196,7 +2196,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-Underfull \hbox (badness 10000) in alignment at lines 1183--1196
+Underfull \hbox (badness 10000) in alignment at lines 1178--1191
 [][]
  []
 
@@ -2204,27 +2204,27 @@ Underfull \hbox (badness 10000) in alignment at lines 1183--1196
 File: figures/Figure_6.png Graphic file (type bmp)
 <figures/Figure_6.png>
 
-Overfull \hbox (3.05853pt too wide) in paragraph at lines 1216--1217
+Overfull \hbox (3.05853pt too wide) in paragraph at lines 1211--1212
 []$[]$ \TU/DejaVuSerif(0)/m/n/12 =$[]$ $[]$ 
  []
 
 [23]
-Underfull \hbox (badness 10000) in alignment at lines 1247--1256
+Underfull \hbox (badness 10000) in alignment at lines 1242--1251
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 1281--1293
+Underfull \hbox (badness 10000) in alignment at lines 1276--1288
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 1302--1313
+Underfull \hbox (badness 10000) in alignment at lines 1297--1308
 [][]
  []
 
 [24] [25]
-Underfull \hbox (badness 10000) in alignment at lines 1365--1388
+Underfull \hbox (badness 10000) in alignment at lines 1360--1383
 [][]
  []
 
@@ -2234,22 +2234,22 @@ FLT;mapping=tex-text;!
 Missing character: There is no ⊺ in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in alignment at lines 1495--1506
+Underfull \hbox (badness 10000) in alignment at lines 1490--1501
 [][]
  []
 
 
-Overfull \hbox (11.6014pt too wide) detected at line 1522
+Overfull \hbox (11.6014pt too wide) detected at line 1517
 [] \OT1/cmr/m/n/12 = [] [] []
  []
 
 [28]
-Underfull \hbox (badness 10000) in alignment at lines 1532--1551
+Underfull \hbox (badness 10000) in alignment at lines 1527--1546
 [][]
  []
 
 [29] [30] [31]
-Underfull \hbox (badness 10000) in alignment at lines 1684--1702
+Underfull \hbox (badness 10000) in alignment at lines 1679--1697
 [][]
  []
 
@@ -2265,32 +2265,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Missing character: There is no β in font cmmi12!
 Missing character: There is no α in font cmmi12!
 
-Underfull \hbox (badness 10000) in alignment at lines 1840--1853
+Underfull \hbox (badness 10000) in alignment at lines 1835--1848
 [][]
  []
 
 [35]
-Underfull \hbox (badness 10000) in alignment at lines 1877--1894
+Underfull \hbox (badness 10000) in alignment at lines 1872--1889
 [][]
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 1910--1910
+Underfull \hbox (badness 1077) in paragraph at lines 1905--1905
 []\TU/DejaVuSerif(0)/m/n/12 Fast but unsta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1912--1912
+Underfull \hbox (badness 10000) in paragraph at lines 1907--1907
 []\TU/DejaVuSerif(0)/m/n/12 Superfast and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1914--1914
+Underfull \hbox (badness 10000) in paragraph at lines 1909--1909
 []\TU/DejaVuSerif(0)/m/n/12 Superfast pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1914--1914
+Underfull \hbox (badness 10000) in paragraph at lines 1909--1909
 []\TU/DejaVuSerif(0)/m/n/12 O(n log
  []
 
@@ -2305,53 +2305,53 @@ Missing character: There is no δ in font cmmi12!
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1951.
+(hyperref)                removing `math shift' on input line 1946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1951.
+(hyperref)                removing `math shift' on input line 1946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1951.
+(hyperref)                removing `math shift' on input line 1946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1951.
+(hyperref)                removing `math shift' on input line 1946.
 
 Missing character: There is no δ in font cmmi12!
 Missing character: There is no δ in font cmmi12!
 Missing character: There is no δ in font cmmi12!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1966.
+(hyperref)                removing `math shift' on input line 1961.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1966.
+(hyperref)                removing `math shift' on input line 1961.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1966.
+(hyperref)                removing `math shift' on input line 1961.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1966.
+(hyperref)                removing `subscript' on input line 1961.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1966.
+(hyperref)                removing `math shift' on input line 1961.
 
 [37]
 Missing character: There is no δ in font cmmi12!
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2011.
+(hyperref)                removing `math shift' on input line 2006.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2011.
+(hyperref)                removing `math shift' on input line 2006.
 
 [38]
 Missing character: There is no δ in font cmmi12!
@@ -2368,7 +2368,7 @@ Missing character: There is no ε in font cmmi12!
  [39] [40]
 Missing character: There is no ˆ in font cmmi12!
 
-Underfull \hbox (badness 10000) in alignment at lines 2198--2210
+Underfull \hbox (badness 10000) in alignment at lines 2195--2207
 [][]
  []
 
@@ -2378,7 +2378,7 @@ Missing character: There is no ε in font cmmi12!
 Missing character: There is no κ in font cmmi12!
 Missing character: There is no ε in font cmmi12!
 [41] [42] [43]
-Underfull \hbox (badness 10000) in paragraph at lines 2322--2326
+Underfull \hbox (badness 10000) in paragraph at lines 2319--2323
 
  []
 
@@ -2386,107 +2386,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 2322--2326
 File: figuresl/figure1.png Graphic file (type bmp)
 <figuresl/figure1.png>
  [45]
-Underfull \hbox (badness 10000) in paragraph at lines 2413--2414
+Underfull \hbox (badness 10000) in paragraph at lines 2410--2411
 
  []
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 2433--2435
+Underfull \hbox (badness 10000) in paragraph at lines 2430--2432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2436--2437
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2438--2440
+Underfull \hbox (badness 10000) in paragraph at lines 2435--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2448--2449
+Underfull \hbox (badness 10000) in paragraph at lines 2445--2446
 
  []
 
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 2450--2451
+Underfull \hbox (badness 10000) in paragraph at lines 2447--2448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2474--2476
+Underfull \hbox (badness 10000) in paragraph at lines 2471--2473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2481--2482
+Underfull \hbox (badness 10000) in paragraph at lines 2478--2479
 
  []
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 2488--2491
+Underfull \hbox (badness 10000) in paragraph at lines 2485--2488
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2505--2510
+Underfull \hbox (badness 10000) in paragraph at lines 2502--2507
 
  []
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 2526--2528
+Underfull \hbox (badness 10000) in paragraph at lines 2523--2525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2549--2551
+Underfull \hbox (badness 10000) in paragraph at lines 2546--2548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2553--2554
+Underfull \hbox (badness 10000) in paragraph at lines 2550--2551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2555--2556
+Underfull \hbox (badness 10000) in paragraph at lines 2552--2553
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2557--2558
+Underfull \hbox (badness 10000) in paragraph at lines 2554--2555
 
  []
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 2562--2564
+Underfull \hbox (badness 10000) in paragraph at lines 2559--2561
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2582--2583
+Underfull \hbox (badness 10000) in paragraph at lines 2579--2580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2584--2585
+Underfull \hbox (badness 10000) in paragraph at lines 2581--2582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2586--2587
+Underfull \hbox (badness 10000) in paragraph at lines 2583--2584
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2588--2592
+Underfull \hbox (badness 10000) in paragraph at lines 2585--2589
 
  []
 
 [51] [52]
-Underfull \hbox (badness 10000) in paragraph at lines 2658--2660
+Underfull \hbox (badness 10000) in paragraph at lines 2655--2657
 
  []
 
@@ -2494,42 +2494,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 2658--2660
 Missing character: There is no ⊺ in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 2688--2689
+Underfull \hbox (badness 10000) in paragraph at lines 2685--2686
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2690--2691
+Underfull \hbox (badness 10000) in paragraph at lines 2687--2688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2692--2693
+Underfull \hbox (badness 10000) in paragraph at lines 2689--2690
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2694--2695
+Underfull \hbox (badness 10000) in paragraph at lines 2691--2692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2696--2697
+Underfull \hbox (badness 10000) in paragraph at lines 2693--2694
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2698--2699
+Underfull \hbox (badness 10000) in paragraph at lines 2695--2696
 
  []
 
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 2704--2706
+Underfull \hbox (badness 10000) in paragraph at lines 2701--2703
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2707--2708
+Underfull \hbox (badness 10000) in paragraph at lines 2704--2705
 
  []
 
@@ -2541,42 +2541,42 @@ FLT;mapping=tex-text;!
 Missing character: There is no 或 in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 2755--2760
+Underfull \hbox (badness 10000) in paragraph at lines 2752--2757
 
  []
 
 [56]
-Underfull \hbox (badness 10000) in paragraph at lines 2790--2792
+Underfull \hbox (badness 10000) in paragraph at lines 2787--2789
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2793--2794
+Underfull \hbox (badness 10000) in paragraph at lines 2790--2791
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2795--2796
+Underfull \hbox (badness 10000) in paragraph at lines 2792--2793
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2797--2799
+Underfull \hbox (badness 10000) in paragraph at lines 2794--2796
 
  []
 
 [57]
-Underfull \hbox (badness 10000) in paragraph at lines 2804--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2801--2803
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2817--2819
+Underfull \hbox (badness 10000) in paragraph at lines 2814--2816
 
  []
 
 
-Overfull \hbox (46.12282pt too wide) in paragraph at lines 2826--2827
+Overfull \hbox (46.12282pt too wide) in paragraph at lines 2823--2824
 []\TU/SimSun(0)/m/n/12 若 $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 
 ) = \OML/cmm/m/it/12 r \OMS/cmsy/m/n/12 ^^T \OML/cmm/m/it/12 n$\TU/SimSun(0)/m/
 n/12 ，|  则 $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ) = [] []$\TU/
@@ -2585,104 +2585,104 @@ SimSun(0)/m/n/12 ，| $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ) = 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2837--2838
+Underfull \hbox (badness 10000) in paragraph at lines 2834--2835
 
  []
 
 [58]
-Underfull \hbox (badness 10000) in paragraph at lines 2839--2840
+Underfull \hbox (badness 10000) in paragraph at lines 2836--2837
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2852--2855
+Underfull \hbox (badness 10000) in paragraph at lines 2849--2852
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2871--2873
+Underfull \hbox (badness 10000) in paragraph at lines 2868--2870
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2881--2883
+Underfull \hbox (badness 10000) in paragraph at lines 2878--2880
 
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 2904--2906
+Underfull \hbox (badness 10000) in paragraph at lines 2901--2903
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2907--2908
+Underfull \hbox (badness 10000) in paragraph at lines 2904--2905
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2912--2914
+Underfull \hbox (badness 10000) in paragraph at lines 2909--2911
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2932--2934
+Underfull \hbox (badness 10000) in paragraph at lines 2929--2931
 
  []
 
 [60]
-Underfull \hbox (badness 10000) in paragraph at lines 2939--2941
+Underfull \hbox (badness 10000) in paragraph at lines 2936--2938
 
  []
 
 File: figuresl/figure2.png Graphic file (type bmp)
 <figuresl/figure2.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 2946--2956
+Underfull \hbox (badness 10000) in paragraph at lines 2943--2953
 
  []
 
 [61] [62]
-Underfull \hbox (badness 10000) in paragraph at lines 3023--3024
+Underfull \hbox (badness 10000) in paragraph at lines 3020--3021
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3028--3031
+Underfull \hbox (badness 10000) in paragraph at lines 3025--3028
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3032--3033
+Underfull \hbox (badness 10000) in paragraph at lines 3029--3030
 
  []
 
 [63]
-Underfull \hbox (badness 10000) in paragraph at lines 3046--3048
+Underfull \hbox (badness 10000) in paragraph at lines 3043--3045
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3049--3050
+Underfull \hbox (badness 10000) in paragraph at lines 3046--3047
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3051--3052
+Underfull \hbox (badness 10000) in paragraph at lines 3048--3049
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3053--3054
+Underfull \hbox (badness 10000) in paragraph at lines 3050--3051
 
  []
 
 [64] [65]
-Underfull \hbox (badness 10000) in paragraph at lines 3131--3133
+Underfull \hbox (badness 10000) in paragraph at lines 3128--3130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3137--3140
+Underfull \hbox (badness 10000) in paragraph at lines 3134--3137
 
  []
 
@@ -2693,72 +2693,72 @@ FLT;mapping=tex-text;!
 File: figuresl/figure3.png Graphic file (type bmp)
 <figuresl/figure3.png>
 
-Overfull \hbox (15.53767pt too wide) in paragraph at lines 3246--3247
+Overfull \hbox (15.53767pt too wide) in paragraph at lines 3243--3244
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3263--3266
+Underfull \hbox (badness 10000) in paragraph at lines 3260--3263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3267--3269
+Underfull \hbox (badness 10000) in paragraph at lines 3264--3266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3274--3275
+Underfull \hbox (badness 10000) in paragraph at lines 3271--3272
 
  []
 
 [69] [70]
-Underfull \hbox (badness 10000) in paragraph at lines 3324--3328
+Underfull \hbox (badness 10000) in paragraph at lines 3321--3325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3347--3349
+Underfull \hbox (badness 10000) in paragraph at lines 3344--3346
 
  []
 
 [71]
-Underfull \hbox (badness 10000) in paragraph at lines 3373--3374
+Underfull \hbox (badness 10000) in paragraph at lines 3370--3371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3375--3378
+Underfull \hbox (badness 10000) in paragraph at lines 3372--3375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3379--3381
+Underfull \hbox (badness 10000) in paragraph at lines 3376--3378
 
  []
 
 [72]
-Underfull \hbox (badness 10000) in paragraph at lines 3392--3393
+Underfull \hbox (badness 10000) in paragraph at lines 3389--3390
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3394--3395
+Underfull \hbox (badness 10000) in paragraph at lines 3391--3392
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3400--3403
+Underfull \hbox (badness 10000) in paragraph at lines 3397--3400
 
  []
 
 [73]
-Underfull \hbox (badness 10000) in paragraph at lines 3442--3444
+Underfull \hbox (badness 10000) in paragraph at lines 3439--3441
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3453--3455
+Underfull \hbox (badness 10000) in paragraph at lines 3450--3452
 
  []
 
@@ -2775,17 +2775,17 @@ File: figuresl/figure5.png Graphic file (type bmp)
 File: figuresl/figure6.png Graphic file (type bmp)
 <figuresl/figure6.png>
  [77] [78]
-Underfull \hbox (badness 10000) in paragraph at lines 3574--3576
+Underfull \hbox (badness 10000) in paragraph at lines 3571--3573
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3585--3586
+Underfull \hbox (badness 10000) in paragraph at lines 3582--3583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3597--3600
+Underfull \hbox (badness 10000) in paragraph at lines 3594--3597
 
  []
 
@@ -2796,7 +2796,7 @@ File: figuresl/figure7.png Graphic file (type bmp)
 File: figuresl/figure8.png Graphic file (type bmp)
 <figuresl/figure8.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 3610--3614
+Underfull \hbox (badness 10000) in paragraph at lines 3607--3611
 
  []
 
@@ -2809,12 +2809,12 @@ FLT;mapping=tex-text;!
 File: figurest/figure_1.png Graphic file (type bmp)
 <figurest/figure_1.png>
 
-Overfull \hbox (21.53596pt too wide) in paragraph at lines 4032--4033
+Overfull \hbox (21.53596pt too wide) in paragraph at lines 4029--4030
  [][] 
  []
 
 [93] [94] [95] [96]
-Overfull \hbox (14.49104pt too wide) detected at line 4216
+Overfull \hbox (14.49104pt too wide) detected at line 4213
 [][]
  []
 
@@ -2825,7 +2825,7 @@ File: figurest/figure_2.png Graphic file (type bmp)
 File: figurest/figure_3.png Graphic file (type bmp)
 <figurest/figure_3.png>
  [101] [102] [103] [104] [105] [106]
-Overfull \hbox (40.93057pt too wide) in paragraph at lines 4493--4493
+Overfull \hbox (40.93057pt too wide) in paragraph at lines 4490--4490
 \TU/SimSun(0)/m/n/12 称 三 对 角 矩 阵，|  且 $\OML/cmm/m/it/12 T[]$ \TU/SimSun(0)/m/n/
 12 的 主 对 角 线 元 素 全 为 \TU/DejaVuSerif(0)/m/n/12 0\TU/SimSun(0)/m/n/12 ，|  次 对 角 
 线 元 素 为 $\OML/cmm/m/it/12 a[]; b[]; a[]; b[]; [] ; a[]; b[]; a[]$\TU/SimSun(0)/
@@ -2839,81 +2839,81 @@ FLT;mapping=tex-text;!
 Missing character: There is no ， in font DejaVu Serif/OT:script=latn;language=D
 FLT;mapping=tex-text;!
  [116] [117]
+Underfull \hbox (badness 10000) in paragraph at lines 4868--4869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4869--4871
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 4871--4872
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4872--4874
+Underfull \hbox (badness 10000) in paragraph at lines 4872--4876
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4874--4875
+Underfull \hbox (badness 10000) in paragraph at lines 4877--4880
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4875--4879
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4880--4883
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4884--4885
+Underfull \hbox (badness 10000) in paragraph at lines 4881--4882
 
  []
 
 [118] [119] [120] [121]
-Overfull \hbox (5.70734pt too wide) in paragraph at lines 5003--5027
+Overfull \hbox (5.70734pt too wide) in paragraph at lines 5000--5024
 [][] 
  []
 
 [122]
-Underfull \hbox (badness 10000) in paragraph at lines 5095--5113
+Underfull \hbox (badness 10000) in paragraph at lines 5092--5110
 
  []
 
 [123]
-Underfull \hbox (badness 10000) in paragraph at lines 5115--5117
+Underfull \hbox (badness 10000) in paragraph at lines 5112--5114
 
  []
 
 [124]
-Underfull \hbox (badness 10000) in paragraph at lines 5151--5167
+Underfull \hbox (badness 10000) in paragraph at lines 5148--5164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5171--5173
+Underfull \hbox (badness 10000) in paragraph at lines 5168--5170
 
  []
 
 File: figurest/figure_1.png Graphic file (type bmp)
 <figurest/figure_1.png>
 
-Overfull \hbox (2.54295pt too wide) in paragraph at lines 5170--5179
+Overfull \hbox (2.54295pt too wide) in paragraph at lines 5167--5176
 []$[]$  [] 
  []
 
 File: figurest/figure_1.png Graphic file (type bmp)
 <figurest/figure_1.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 5189--5206
+Underfull \hbox (badness 10000) in paragraph at lines 5186--5203
 
  []
 
 [125]
-Underfull \hbox (badness 10000) in paragraph at lines 5230--5265
+Underfull \hbox (badness 10000) in paragraph at lines 5227--5262
 
  []
 
 [126] [127]
-Underfull \hbox (badness 10000) in paragraph at lines 5286--5290
+Underfull \hbox (badness 10000) in paragraph at lines 5283--5287
 
  []
 
@@ -2921,7 +2921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5286--5290
 File: figurest/figure_2.png Graphic file (type bmp)
 <figurest/figure_2.png>
  [129] [130] [131]
-Underfull \hbox (badness 10000) in paragraph at lines 5428--5432
+Underfull \hbox (badness 10000) in paragraph at lines 5425--5429
 
  []
 
@@ -2931,96 +2931,96 @@ File: figurest/figure_3.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [132] [133] [134] [135]
-Underfull \hbox (badness 10000) in paragraph at lines 5586--5588
+Underfull \hbox (badness 10000) in paragraph at lines 5583--5585
 
  []
 
 [136]
-Underfull \hbox (badness 10000) in paragraph at lines 5631--5635
+Underfull \hbox (badness 10000) in paragraph at lines 5628--5632
 
  []
 
 [137] [138]
-Underfull \hbox (badness 10000) in paragraph at lines 5697--5714
+Underfull \hbox (badness 10000) in paragraph at lines 5694--5711
 
  []
 
 [139]
-Underfull \hbox (badness 10000) in paragraph at lines 5726--5729
+Underfull \hbox (badness 10000) in paragraph at lines 5723--5726
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5753--5755
+Underfull \hbox (badness 10000) in paragraph at lines 5750--5752
 
  []
 
 [140]
-Underfull \hbox (badness 10000) in paragraph at lines 5759--5762
+Underfull \hbox (badness 10000) in paragraph at lines 5756--5759
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5764--5766
+Underfull \hbox (badness 10000) in paragraph at lines 5761--5763
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5778--5780
+Underfull \hbox (badness 10000) in paragraph at lines 5775--5777
 
  []
 
 [141]
-Underfull \hbox (badness 10000) in paragraph at lines 5807--5809
+Underfull \hbox (badness 10000) in paragraph at lines 5804--5806
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5821--5823
+Underfull \hbox (badness 10000) in paragraph at lines 5818--5820
 
  []
 
 [142]
-Underfull \hbox (badness 10000) in paragraph at lines 5866--5867
+Underfull \hbox (badness 10000) in paragraph at lines 5863--5864
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5867--5868
+Underfull \hbox (badness 10000) in paragraph at lines 5864--5865
 
  []
 
 [143]
-Underfull \hbox (badness 10000) in paragraph at lines 5875--5876
+Underfull \hbox (badness 10000) in paragraph at lines 5872--5873
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 5876.
+(hyperref)                removing `\@ifnextchar' on input line 5873.
 
 [144] [145]
-Underfull \hbox (badness 10000) in paragraph at lines 5987--5988
+Underfull \hbox (badness 10000) in paragraph at lines 5984--5985
 
  []
 
 [146]
-Underfull \hbox (badness 10000) in paragraph at lines 5993--5994
+Underfull \hbox (badness 10000) in paragraph at lines 5990--5991
 
  []
 
 [147]
-Underfull \hbox (badness 10000) in paragraph at lines 6043--6044
+Underfull \hbox (badness 10000) in paragraph at lines 6040--6041
 
  []
 
 [148]
-Underfull \hbox (badness 10000) in paragraph at lines 6059--6060
+Underfull \hbox (badness 10000) in paragraph at lines 6056--6057
 
  []
 
 [149]
-Overfull \hbox (65.98251pt too wide) in paragraph at lines 6105--6153
+Overfull \hbox (65.98251pt too wide) in paragraph at lines 6102--6150
 [][] 
  []
 
@@ -3029,56 +3029,56 @@ Overfull \vbox (184.22061pt too high) has occurred while \output is active []
 
 
 [151]
-Underfull \hbox (badness 10000) in paragraph at lines 6154--6156
+Underfull \hbox (badness 10000) in paragraph at lines 6151--6153
 
  []
 
 [152] [153]
-Underfull \hbox (badness 10000) in paragraph at lines 6253--6255
+Underfull \hbox (badness 10000) in paragraph at lines 6250--6252
 
  []
 
 [154]
 
-LaTeX Warning: Command \r invalid in math mode on input line 6258.
+LaTeX Warning: Command \r invalid in math mode on input line 6255.
 
 Missing character: There is no ̊ in font cmmi8!
 [155]
-Underfull \hbox (badness 10000) in paragraph at lines 6331--6333
+Underfull \hbox (badness 10000) in paragraph at lines 6328--6330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6334--6370
+Underfull \hbox (badness 10000) in paragraph at lines 6331--6367
 
  []
 
 [156] [157] [158]
-Underfull \hbox (badness 10000) in paragraph at lines 6418--6420
+Underfull \hbox (badness 10000) in paragraph at lines 6415--6417
 
  []
 
 [159] [160]
-Overfull \hbox (101.23839pt too wide) in paragraph at lines 6515--6535
+Overfull \hbox (101.23839pt too wide) in paragraph at lines 6512--6532
 [][] 
  []
 
 [161] [162]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6535.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 6535.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 6532.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 6532.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 6535.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 6535.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 6532.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 6532.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6535.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6532.
  ) 
 Here is how much of TeX's memory you used:
  43093 strings out of 493007
  879484 string characters out of 6136719
- 1040660 words of memory out of 5000000
+ 1040663 words of memory out of 5000000
  46441 multiletter control sequences out of 15000+600000
  542414 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

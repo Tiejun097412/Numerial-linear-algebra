@@ -1,0 +1,190 @@
+% !Mode:: "TeX:UTF-8"
+\documentclass[12pt,a4paper]{article}
+\input{en_preamble.tex}
+\input{xecjk_preamble.tex}
+
+\title{矩阵计算}
+\author{潘建瑜}
+
+\begin{document}
+\maketitle
+\newpage
+\section{课程主要内容}
+
+• 线性方程组的直接解法
+
+• 线性最小二乘问题的数值算法
+
+• 非对称矩阵的特征值计算
+
+• 对称矩阵特征值计算与奇异值分解
+
+• 线性方程组迭代算法
+
+• 特征值问题的迭代算法 (部分特征值和特征向量)
+
+• 稀疏矩阵计算
+
+ \subsection*{主要参考资料}
+
+• G. H. Golub and C. F. van Loan, “Matrix Computations (4th),” 2013.对应中文版为:《矩阵计算》(第三版), 袁亚湘等译, 2001.
+
+• J. W. Demmel, “Applied Numerical Linear Algebra,” 1997.对应中文版为:《应用数值线性代数》, 王国荣译, 2007.
+
+• L. N. Trefethen and D. Bau, III, “Numerical Linear Algebra,” 1997.对应中文版为:《数值线性代数》, 陆金甫等译, 2006.
+
+• 徐树方, “矩阵计算的理论与方法,” 北京大学出版社, 1995.
+
+• 曹志浩, “数值线性代数,” 复旦大学出版社, 1996.
+
+\subsection*{课程主页}
+
+http://math.ecnu.edu.cn/~jypan/Teaching/MatrixComp/
+
+\newpage
+\section{引言}
+计算数学, 也称 数值分析 或 计算方法.
+
+1947 年 Von Neumann 和 Goldstine 在《美国数学会通报》发表了题为“高阶矩阵的数值求逆”的著名论文, 开启了现代计算数学的研究
+
+一般来说, 计算数学主要研究如何求出数学问题的近似解 (数值解), 包括算法的设计与分析 (收敛性, 稳定性, 复杂性等)
+
+\begin{framed}
+	
+	计算数学主要研究内容:
+	
+	数值逼近, 数值微积分, 数值代数, 微分方程数值解, 最优化等
+
+\end{framed}
+
+\subsection{为什么学计算数学}
+科学计算是 20 世纪重要科学技术进步之一, 已与理论研究和实验研究相并列成为科学研究的第三种方法. 现今科学计算已是体现国家科学技术核心竞争力的重要标志, 是国家科学技术创新发展的关键要素。
+
+\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad —— 国家自然科学基金 · 重大项目指南, 2014
+
+计算科学是 21 世纪确保国家核心竞争能力的战略技术之一。
+
+\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad  —— 计算科学: 确保美国竞争力，2005
+
+科学计算的核心/数学基础: 计算数学.
+
+\subsection{矩阵计算(数值线性代数)的重要性}
+If any other mathematical topic is as fundamental to the mathematical
+sciences as calculus and differential equations, it is numerical linear
+algebra.
+
+\qquad \qquad \qquad \qquad \qquad \qquad \qquad\qquad—— Trefethen and Bau, 1997.
+
+\subsubsection*{国家自然科学基金委员会关于计算数学的分类 (2018):}
+
+• 计算数学与科学工程计算 (A0117)
+
+- 偏微分方程数值解 (A011701)
+
+- 流体力学中的数值计算 (A011702)
+
+- 一般反问题的计算方法 (A011703)
+
+- 常微分方程数值计算 (A011704)
+
+- 数值代数 (A011705)
+
+- 数值逼近与计算几何 (A011706)
+
+- 谱方法及高精度数值方法 (A011707)
+
+- 有限元和边界元方法 (A011708)
+
+- 多重网格技术与区域分解 (A011709)
+
+- 自适应方法 (A011720)
+
+- 并行计算 (A011711)
+
+\subsection{计算数学的主要任务}
+
+• 算法设计: 构造求解各种数学问题的数值方法
+
+• 算法分析: 收敛性、稳定性、复杂性、计算精度等
+
+• 算法实现: 编程实现、软件开发
+
+好的数值方法一般需要满足以下几点：
+
+• 有可靠的理论分析, 即收敛性、稳定性等有数学理论保证
+
+• 有良好的计算复杂性 (时间和空间)
+
+• 易于在计算机上实现
+
+• 要有具体的数值试验来证明是行之有效的
+
+\subsection{矩阵计算基本问题}
+数值代数: 数值线性代数 (矩阵计算) 和数值非线性代数
+
+数值线性代数 (矩阵计算) 主要研究以下问题:
+
+• 线性方程组求解
+$$Ax=b,A \in R^{n \times n}\text{非奇异}$$
+
+• (线性)最小二乘问题
+$$
+\min _{x \in \mathbb{R}^{n}}\|A x-b\|_{2} \quad, \quad A \in \mathbb{R}^{m \times n}, m \geq n
+$$
+
+•矩阵特征值问题
+$$
+A x=\lambda x \quad, \quad A \in \mathbb{R}^{n \times n}, \lambda \in \mathbb{C}, x \in \mathbb{C}^{n}, x \neq 0
+$$
+
+•矩阵奇异值问题
+$$
+A^{\top} A x=\sigma^{2} x \quad, \quad A \in \mathbb{R}^{m \times n}, \sigma \geq 0, x \in \mathbb{R}^{n}, x \neq 0
+$$
+
+•其他问题：
+
+广义特征值问题, 二次特征值问题, 非线性特征值问题, 矩阵方程, 特征值反问题, 张量计算, . . . . . .
+\begin{framed}
+	
+	$†$ 数值方法一般都是近似方法, 求出的解是带有误差的, 因此误差分析非常重要.
+	
+\end{framed}
+
+\subsection{矩阵计算常用方法(技术或技巧)}
+	• 矩阵分解
+	
+	• 矩阵分裂
+	
+	• 扰动分析
+
+\begin{framed}
+	† 问题的特殊结构对算法的设计具有非常重要的影响.
+\end{framed}
+
+\begin{framed}
+	† 在编程实现时, 要充分利用现有的优秀程序库.
+\end{framed}
+
+\subsubsection*{二十世纪十大优秀算法 (SIAM News, 2000)}
+1. Monte Carlo method (1946)
+
+2. Simplex Method for Linear Programming (1947)
+
+3. Krylov Subspace Iteration Methods (1950)
+
+4. The Decompositional Approach to Matrix Computations (1951)
+
+5. The Fortran Optimizing Compiler (1957)
+
+6. QR Algorithm for Computing Eigenvalues (1959-61)
+
+7. Quicksort Algorithm for Sorting (1962)
+
+8. Fast Fourier Transform (1965)
+
+9. Integer Relation Detection Algorithm (1977)
+
+10. Fast Multipole Method (1987)
+
+\end{document}

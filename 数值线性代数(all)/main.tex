@@ -342,11 +342,6 @@ $$\mathbb{C}^{n}=\operatorname{Ker}(A) \oplus \operatorname{Ran}\left(A^{*}\righ
 \end{lemma}
 
 
-
-† 算子范数都是相容的, 且$$ \|A x\| \leq\|A\| \cdot\|x\|, \quad A \in \mathbb{C}^{n \times n}, x \in \mathbb{C}^{n}$$
-
-
-
 † 算子范数都是相容的, 且$$ \|A x\| \leq\|A\| \cdot\|x\|, \quad A \in \mathbb{C}^{n \times n}, x \in \mathbb{C}^{n}$$
 
 
@@ -1200,7 +1195,7 @@ end
 
 \begin{figure}[h]%%图
 	\centering  %插入的图片居中表示
-	\includegraphics[width=0.7\linewidth]{figures/Figure_6.png}  %插入的图，包括JPG,PNG,PDF,EPS等，放在源文件目录下
+	\includegraphics[width=0.5\linewidth]{figures/Figure_6.png}  %插入的图，包括JPG,PNG,PDF,EPS等，放在源文件目录下
 	\caption{}  %图片的名称
 	\label{fig:mcmthesis-logo}   %标签，用作引用
 \end{figure}
@@ -1257,7 +1252,7 @@ $l_{i k}=\left(a_{i k}-l_{i 1} u_{1 k}-\cdots-l_{i, k-1} u_{k-1, k}\right) / u_{
 \end{table} 
 
 \begin{lstlisting}[language={[ANSI]C}] 
-% Matlab code 2 : 待定系数法 LU 分解
+% Matlab code 3 : 待定系数法 LU 分解
 function A = mylu2(A)
 [n,n]=size(A);
 for k=1:n
@@ -2024,6 +2019,8 @@ disp_p(A) \triangleq \min \left\{\frac{\|\delta A\|_{p}}{\|A\|_{p}} : A+\delta A
 是令人满意的. 但有时相差很大, 不能很好的反映实际计算中解的误差.
 
 
+
+
 {\bfseries 例} 设$A=\left[\begin{array}{ll}{\gamma} & {0} \\ {0} & {1}\end{array}\right], b=\left[\begin{array}{l}{\gamma} \\ {1}\end{array}\right]$，其中$\gamma > 1$,则$Ax = b$的精确解为
 $x_{*}=\left[\begin{array}{l}{1} \\ {1}\end{array}\right]$,任何合理的直接法求得的解的误差都很小. 但系数矩阵的谱条件数为 $\kappa_{2}(A)=\gamma$,当$\gamma$很大时,$\kappa_{2}(A)$也很大, 因此误差界(2.16)和(2.18)可以是很大。
 
@@ -2758,7 +2755,7 @@ $\dagger$对于稠密矩阵而言, 基于 Givens 变换的 QR 分解的运算量
 \textcolor{blue}{基于 Givens 变换的 QR 分解主要用于当矩阵的非零下三角元素相对 较少时的情形, 比如对上 Hessenberg 矩阵进行 QR 分解}\\
 $\dagger$如果 $A \in \mathbb{R}^{m\times n}, m > n$, 仍然可以通过 Givens 变换进行 QR 分解\\
 
-\textcolor{blue}{算法3.4}基于 Givens 变换的 QR 分解\\
+\textcolor{blue}{算法3.4:}基于 Givens 变换的 QR 分解\\
 \textcolor{red}{\%Given $A \in \mathbb{R}^{m\times n}$,compute$Q \in \mathbb{R}^{m×\times m}$ and$R\in \mathbb{R}{m\times n}$ such that $A = QR$\\
 	\% The upper triangular part of R is stored in the upper triangular part of A}
 \begin{enumerate}[1:]
@@ -2818,7 +2815,7 @@ $$
 为 A 的截断 SVD (truncated SVD ).\\
 
 \noindent 奇异值分解基本性质\\
-\textcolor{blue}{定理}设$A=U\left[\begin{array}{l}{\Sigma} \\ {0}\end{array}\right] V^{*}$是$A \in \mathbb{C}^{m \times n}(m \geq n)$的奇异值分解,则
+\textcolor{blue}{定理:}设$A=U\left[\begin{array}{l}{\Sigma} \\ {0}\end{array}\right] V^{*}$是$A \in \mathbb{C}^{m \times n}(m \geq n)$的奇异值分解,则
 \begin{enumerate}[(1)]
 	\item $A^{*} A$ 的特征值是 $\sigma_{i}^{2}$ , 对应的特征向量是 $v_{i}$
 	\item $AA^{*}$的特征值是$\sigma_{i}^{2}$和$m-n$个零，对应的特征向量是$u_{i}$
