@@ -71,8 +71,6 @@
 \usepackage{multicol}
 \usepackage{changes}
 \usepackage{listings}
-\lstset{language=Matlab}
-\lstset{extendedchars=false}
 
 %将系统字体名映射为逻辑字体名称，主要是为了维护的方便  
 \newcommand\fnhei{Adobe 黑体 Std}  
@@ -256,9 +254,6 @@ A x=b \Longleftrightarrow\left\{\begin{array}{l}{L y=b} \\ {U x=y}\end{array} | 
 \begin{frame}
 \frametitle{1.1 \quad LU 分解}
 $†$ 需要指出的是: $A$ 非奇异, 则解存在唯一, 但并不一定存在 $LU$ 分解!
-
-
-
 \begin{theorem}(LU 分解的存在性和唯一性)
 	设 $A ∈ \mathbb{R}^{n×n}$. 则存在唯一的单位下
 	三角矩阵 $L$ 和非奇异上三角矩阵 $U$, 使得 $A = LU$ 的充要条件是 $A$ 的
@@ -414,42 +409,51 @@ $$
 
 \begin{frame}
 \frametitle{矩阵 L 和 U 的存储}
-\begin{colorboxed}  
-	\begin{lstlisting}[language={[ANSI]C}]  
-	% Matlab code 1 : LU 分解
-	function A = mylu(A)
-	n=size(A,1);
-	for k=1:n-1
-	if A(k,k) == 0
-	fprintf('Error: A(%d,%d)=0!\n', k, k);
-	return;
-	end
-	for i=k+1:n
-	A(i,k)=A(i,k)/A(k,k);
-	for j=k+1:n
-	A(i,j)=A(i,j)-A(i,k)*A(k,j);
-	end
-	end
-	end  
-	\end{lstlisting}  
-\end{colorboxed} 
+\begin{table}  
+	%\caption{设置表格总长}  
+	\begin{tabular*}{16cm}{ll}  
+		\hline  
+		Matlab code 1: & LU 分解 \\    
+		1：   &function A = mylu(A)\\ 
+		2：   &n=size(A,1);\\
+		3：   &for k=1:n-1\\
+		4：   &\qquad if A(k,k) == 0\\
+		5：   &\qquad fprintf('Error: A(\%d,\%d)=0!', k, k);\\
+		6：   &\qquad return;\\
+		7：   &\qquad end\\
+		8：   &\qquad for i=k+1:n\\
+		9：   &\qquad \qquad A(i,k)=A(i,k)/A(k,k);\\
+		10：   &\qquad \qquad for j=k+1:n\\
+		11：   &\qquad \qquad \qquad A(i,j)=A(i,j)-A(i,k)*A(k,j);\\
+		12：   &\qquad \qquad end\\
+		13:    &\qquad end \\
+		14:    &end  \\
+		\hline  
+	\end{tabular*}  
+\end{table}
+\end{frame}
 
 \begin{frame}
 \frametitle{矩阵 L 和 U 的存储}
 为了充分利用 Matlab 的向量运算优势, 提高运算效率, 程序可改写为
-\begin{verbatim} 
-% Matlab code 2 : LU 分解(KIJ型)
-function A = mylu(A)
-n=size(A,1);
-for k=1:n-1
-if A(k,k) == 0
-fprintf('Error: A(%d,%d)=0!\n', k, k);
-return;
-end
-A(k+1:n,k)=A(k+1:n,k)/A(k,k);
-A(k+1:n,k+1:n)=A(k+1:n,k+1:n)-A(k+1:n,k)*A(k,k+1:n);
-end
-\end{verbatim}
+\begin{table}  
+	%\caption{设置表格总长}  
+	\begin{tabular*}{16cm}{ll}  
+		\hline  
+		Matlab code 2: & LU 分解(KIJ型) \\    
+		1：   &function A = mylu(A)\\ 
+		2：   &n=size(A,1);\\
+		3：   &for k=1:n-1\\
+		4：   &\qquad if A(k,k) == 0\\
+		5：   &\qquad fprintf('Error: A(\%d,\%d)=0!', k, k);\\
+		6：   &\qquad return;\\
+		7：   &\qquad end\\
+		8：   &\qquad A(i,k)=A(i,k)/A(k,k);\\
+		9：  &\qquad A(k+1:n,k+1:n)=A(k+1:n,k+1:n)-A(k+1:n,k)*A(k,k+1:n);\\
+		10:   &end  \\
+		\hline  
+	\end{tabular*}  
+\end{table}
 \end{frame}
 
 \begin{frame}
@@ -480,7 +484,7 @@ end
 
 \begin{figure}[h]%%图
 	\centering  %插入的图片居中表示
-	\includegraphics[width=0.4\linewidth]{./figures/Figure_6.png}  %插入的图，包括JPG,PNG,PDF,EPS等，放在源文件目录下
+	\includegraphics[width=0.7\linewidth]{figures/Figure_6.png}  %插入的图，包括JPG,PNG,PDF,EPS等，放在源文件目录下
 	\caption{}  %图片的名称
 	\label{fig:mcmthesis-logo}   %标签，用作引用
 \end{figure}
@@ -545,21 +549,26 @@ $l_{i k}=\left(a_{i k}-l_{i 1} u_{1 k}-\cdots-l_{i, k-1} u_{k-1, k}\right) / u_{
 
 \begin{frame}
 \frametitle{1.4 \quad 待定系数法计算 LU 分解}
-\begin{verbatim}
-% Matlab code 3 : 待定系数法 LU 分解
-function A = mylu2(A)
-[n,n]=size(A);
-for k=1:n
-A(k,k)=A(k,k)-A(k,1:k-1)*A(1:k-1,k);
-if (A(k,k)==0)
-fprintf('Error: A(%d,%d)=0!\n', i,i);
-return;
-end
-A(k,k+1:n)=A(k,k+1:n)-A(k,1:k-1)*A(1:k-1,k+1:n);
-A(k+1:n,k)=A(k+1:n,k)-A(k+1:n,1:k-1)*A(1:k-1,k);
-A(k+1:n,k)=A(k+1:n,k)/A(k,k);
-end
-\end{verbatim}
+\begin{table}  
+	%\caption{设置表格总长}  
+	\begin{tabular*}{16cm}{ll}  
+		\hline  
+		Matlab code 3: & 待定系数法LU 分解 \\    
+		1：   &function A = mylu(A)\\ 
+		2：   &[n,n]=size(A);\\
+		3：   &for k=1:n\\
+		4：   &\qquad A(k,k)=A(k,k)-A(k,1:k-1)*A(1:k-1,k);\\
+		5：   &\qquad if (A(k,k)==0)\\
+		6：   &\qquad \qquad fprintf('Error: A(\%d,\%d)=0!', i,i);\\
+		7：   &\qquad \qquad return;\\
+		8：   &\qquad end\\
+		9：   &\qquad A(k,k+1:n)=A(k,k+1:n)-A(k,1:k-1)*A(1:k-1,k+1:n);\\
+		10：   &\qquad A(k+1:n,k)=A(k+1:n,k)-A(k+1:n,1:k-1)*A(1:k-1,k);\\
+		11：   &\qquad A(k+1:n,k)=A(k+1:n,k)/A(k,k);\\
+		12:   &end  \\
+		\hline  
+	\end{tabular*}  
+\end{table}
 \end{frame}
 
 \begin{frame}
@@ -575,7 +584,7 @@ $$L y=b, \quad U x=y$$
 		\hline  
 		1：   &$y_{1}=b_{1} / l_{11}$\\  
 		2：   & for i = 2 : n do\\
-		3：   & \qquad for j = 1 : i − 1 do\\
+		3：   & \qquad for j = 1 : i - 1 do\\
 		4:    & \qquad \qquad$b_{i}=b_{i}-l_{i j} y_{j}$\\
 		5：   & \qquad end for\\
 		6:    & \qquad $y_{i}=b_{i} / l_{i i}$\\
@@ -597,9 +606,9 @@ $$L y=b, \quad U x=y$$
 		\hline  
 		算法 1.7 &向前回代求解$Ly =b$(假定$L$是一般的非奇异下三角矩阵)\\  
 		\hline  
-		1：   & for i = n : −1 : 1 do\\  
+		1：   & for i = n : -1 : 1 do\\  
 		2：   & \qquad $x_{i}=y_{i} / u_{i i}$\\
-		3：   & \qquad for j = i − 1 : −1 : 1 do\\
+		3：   & \qquad for j = i - 1 : -1 : 1 do\\
 		4:    & \qquad \qquad$y_{j}=y_{j}-x_{i} u_{j i}$\\
 		5：   & \qquad end for\\
 		6:    & end for\\
@@ -624,14 +633,14 @@ $\bullet$ 此时我们就需要通过 选主元 来解决这个问题.
 \begin{frame}
 \frametitle{1.6 \quad 选主元 LU 分解}
 
-\textbf{例} 用 LU 分解求解线性方程组 Ax = b, 其中
+\textbf{例:} \quad 用 LU 分解求解线性方程组 Ax = b, 其中
 \begin{equation}
 A=\left[\begin{array}{cc}{0.02} & {61.3} \\ {3.43} & {-8.5}\end{array}\right], \quad b=\left[\begin{array}{c}{61.5} \\ {25.8}\end{array}\right]
 \end{equation}
 
 要求在运算过程中保留 3 位有效数字.	
 
-$(x_1 ≈ −20.7, x_2 ≈ 1.01)$
+$$(x_1 ≈ −20.7, x_2 ≈ 1.01)$$
 
 
 易知, 方程的精确解为 $x_1 = 10.0$ 和 $x_2 = 1.00$. 我们发现 $x_1$ 的误差非常
@@ -665,26 +674,94 @@ with complete pivoting);
 \end{frame}
 
 \begin{frame}
-\frametitle{第 $k$ 步时, 如何选取置换矩阵 $P^{(k)}_L$ 和 $P^{(k)}_R$ ？}
-\begin{verbatim}
-% Matlab code 2 : 部分选主元 LU 分解
-function [A,p] = myplu(A)
-[n,n]=size(A); p=1:n;
-for i=1:n-1
-[a,k]=max(abs(A(i:n,i)));
-if a==0
-error('Error: 第 %d 步的列主元为 0!\n', i);
-end
-k=k+i-1;
-if k~=i
-tmp=A(i,:); A(i,:)=A(k,:); A(k,:)=tmp;
-tmp=p(i); p(i)=p(k); p(k)=tmp;
-end
-A(i+1:n,i)=A(i+1:n,i)/A(i,i);
-A(i+1:n,i+1:n)=A(i+1:n,i+1:n)-A(i+1:n,i)*A(i,i+1:n);
-end
-\end{verbatim}
+\begin{table}  
+	%\caption{设置表格总长}  
+	\begin{tabular*}{16cm}{ll}  
+		\hline  
+		算法 1.8 &部分选主元LU分解\\  
+		\hline
+		1：   & p = 1 : n \red{\% 用于记录置换矩阵}\\ 
+		2：   & for k =1 to n-1 do\\ 
+		3：   & \qquad $[a_{max},l] = max_{k \ i n}|a_{ik}|$ \red{\% 选列主元, 其中 l 表示主元所在的行}\\
+		4：   & \qquad if l k then\\
+		5:    & \qquad \qquad for j =2 to n do\\
+		6:    & \qquad \qquad \qquad $tmp = a_{kj},a_{kj} = a_{lj},a_{ij} = tmp$ \red{\% 交换第 k 行与第l 行}\\
+		7：   & \qquad \qquad end for\\
+		8：   & \qquad \qquad $tmp = p(k),p(k)=p(l),p(l)=tmp$ \red{\% 更新置换矩阵}\\
+		9:    & \qquad end for\\
+		10:    & \qquad for i = k+1 to n do\\
+		11：   & \qquad \qquad $a_{ik} = a_{ik}/a_{kk}$ \red{\% 计算 L 的第 k 列}\\
+		\end{tabular*}  
+\end{table}
+\end{frame}	
+		
+\begin{frame}
+\begin{table}  
+	%\caption{设置表格总长}  
+	\begin{tabular*}{16cm}{ll} 		
+		12:    & \qquad end for\\
+		13:    & \qquad for i = k+1 to n do \\
+		14：   & \qquad \qquad for j = k+1 to n do\\
+		15:    & \qquad \qquad \qquad $a_{ij}=a_{ij}-a_{ik}*a_{kj}$ \red{\% 更新 A(k + 1 : n, k + 1 : n)}\\
+		16：   & \qquad \qquad end for\\
+		17：   & \qquad end for\\
+		18：   & end for\\
+		\hline  
+	\end{tabular*}  
+\end{table}
 \end{frame}
+
+
+\begin{frame}
+\frametitle{第 $k$ 步时, 如何选取置换矩阵 $P^{(k)}_L$ 和 $P^{(k)}_R$ ？}
+\begin{frame}
+\begin{table}  
+	%\caption{设置表格总长}  
+	\begin{tabular*}{16cm}{ll}  
+		\hline  
+		Matlab code 4 &部分选主元LU分解\\  
+		\hline
+		1：   & p = 1 : n \red{\% 用于记录置换矩阵}\\ 
+		2：   & for k =1 to n-1 do\\ 
+		3：   & \qquad $[a_{max},l] = max_{k \ i n}|a_{ik}|$ \red{\% 选列主元, 其中 l 表示主元所在的行}\\
+		4：   & \qquad if l k then\\
+		5:    & \qquad \qquad for j =2 to n do\\
+		6:    & \qquad \qquad \qquad $tmp = a_{kj},a_{kj} = a_{lj},a_{ij} = tmp$ \red{\% 交换第 k 行与第l 行}\\
+		7：   & \qquad \qquad end for\\
+		8：   & \qquad \qquad $tmp = p(k),p(k)=p(l),p(l)=tmp$ \red{\% 更新置换矩阵}\\
+		9:    & \qquad end for\\
+		10:    & \qquad for i = k+1 to n do\\
+		11：   & \qquad \qquad $a_{ik} = a_{ik}/a_{kk}$ \red{\% 计算 L 的第 k 列}\\
+	\end{tabular*}  
+\end{table}
+\end{frame}
+
+\begin{frame}
+\begin{table}  
+	%\caption{设置表格总长}  
+	\begin{tabular*}{16cm}{ll}  
+		\hline  
+		Matlab code 4 &部分选主元LU分解\\  
+		\hline
+		1：   & function [A,p] = myplu(A)\\ 
+		2：   & [n,n]=size(A); p=1:n;\\ 
+		3：   & for i=1:n-1\\ 
+		4：   & \qquad [a,k]=max(abs(A(i:n,i)));\\
+		5：   & \qquad if a==0\\
+		6:    & \qquad \qquad error('Error: 第 \%d 步的列主元为 0!', i);\\
+		7:    & \qquad end\\
+		8:    & \qquad k=k+i-1;\\
+		9:    & \qquad if k~=i\\
+		10：   & \qquad \qquad tmp=A(i,:); A(i,:)=A(k,:); A(k,:)=tmp;\\
+		11：   & \qquad \qquad tmp=p(i); p(i)=p(k); p(k)=tmp;\\
+		12:    & \qquad end\\
+		13:   & \qquad A(i+1:n,i)=A(i+1:n,i)/A(i,i);\\
+		14：   & \qquad A(i+1:n,i+1:n)=A(i+1:n,i+1:n)-A(i+1:n,i)*A(i,i+1:n);\\
+		15：   & end\\
+	\end{tabular*}  
+\end{table}
+\end{frame}
+
 
 \begin{frame}
 \frametitle{第 $k$ 步时, 如何选取置换矩阵 $P^{(k)}_L$ 和 $P^{(k)}_R$ ？}

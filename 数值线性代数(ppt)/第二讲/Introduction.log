@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.17)  31 AUG 2019 20:01
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.17)  1 SEP 2019 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1825,9 +1825,6 @@ Package: truncate 2001/08/20  ver 3.6
 )
 \Changes@Len@summ=\skip82
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
 \g__fontspec_family_Adobe楷体Std_int=\count369
 .................................................
 . fontspec info: "no-font-shape"
@@ -1856,7 +1853,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 . Std/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 98.
+LaTeX Info: Redefining \rmfamily on input line 96.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2067,30 +2064,30 @@ Package: xeCJK-listings 2018/02/27 v3.6.1 xeCJK patch file for listings
 (./Introduction.aux)
 \openout1 = `Introduction.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 154.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 154.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 152.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 152.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    ... okay on input line 152.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2128,7 +2125,7 @@ LaTeX Font Info:    ... okay on input line 154.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box118
-Package hyperref Info: Link coloring OFF on input line 154.
+Package hyperref Info: Link coloring OFF on input line 152.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2138,9 +2135,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count389
 )
-LaTeX Info: Redefining \ref on input line 154.
-LaTeX Info: Redefining \pageref on input line 154.
-LaTeX Info: Redefining \nameref on input line 154.
+LaTeX Info: Redefining \ref on input line 152.
+LaTeX Info: Redefining \pageref on input line 152.
+LaTeX Info: Redefining \nameref on input line 152.
 
 (./Introduction.out) (./Introduction.out)
 \@outlinefile=\write5
@@ -2149,51 +2146,51 @@ LaTeX Info: Redefining \nameref on input line 154.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Adobe楷体Std(0)/m/n on input line 154.
+(Font)                  OT1/cmr/m/n --> TU/Adobe楷体Std(0)/m/n on input line 152.
 
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 154.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/Adobe楷体Std(0)/bx/n on input line 15
-4.
+2.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/Adobe楷体Std(0)/bx/n on input line 15
-4.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 154.
+2.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 154.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 154.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 154.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 152.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/Adobe楷体Std(0)/m/it on input line 15
-4.
+2.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/Adobe楷体Std(0)/m/it on input line 1
-54.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 154.
+52.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 154.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 154.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 152.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/Adobe楷体Std(0)/m/n --> TU/Adobe楷体Std(0)/bx/n on input
- line 154.
+ line 152.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/Adobe楷体Std(0)/m/it --> TU/Adobe楷体Std(0)/bx/it on inp
-ut line 154.
+ut line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/Adobe楷体Std(0)/bx/n on input line 15
-4.
+2.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/Adobe楷体Std(0)/bx/n --> TU/Adobe楷体Std(0)/bx/n on inpu
-t line 154.
+t line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 154.
+(Font)                  TU/lmss/m/n --> TU/lmss/bx/n on input line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/Adobe楷体Std(0)/m/it --> TU/Adobe楷体Std(0)/bx/it on inp
-ut line 154.
+ut line 152.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/bx/n on input line 154.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/bx/n on input line 152.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -2220,47 +2217,50 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count390
- (./Introduction.nav)
+
+No file Introduction.nav.
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 161.
+(hyperref)                setting the option has no effect on input line 159.
 
 
-Overfull \hbox (121.63995pt too wide) in paragraph at lines 172--172
+Overfull \hbox (121.63995pt too wide) in paragraph at lines 170--170
  [][]                                                           
  []
 
 [1
 
-] (./Introduction.toc) [2
+]
+No file Introduction.toc.
+[2
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 198.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 196.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 198.
+(Font)              size <10.95> substituted on input line 196.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 198.
+(Font)              size <10.95> substituted on input line 196.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 198.
+(Font)              size <10.95> substituted on input line 196.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 198.
+LaTeX Font Info:    Try loading font information for U+msa on input line 196.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 198.
+LaTeX Font Info:    Try loading font information for U+msb on input line 196.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `TU/Adobe楷体Std(0)/m/it' undefined
-(Font)              using `TU/Adobe楷体Std(0)/m/n' instead on input line 198.
+(Font)              using `TU/Adobe楷体Std(0)/m/n' instead on input line 196.
 
 [3
 
@@ -2273,12 +2273,12 @@ Missing character: There is no ∈ in font cmr10!
  [5
 
 ]
-Underfull \hbox (badness 10000) in alignment at lines 254--254
+Underfull \hbox (badness 10000) in alignment at lines 252--252
 [][]
  []
 
 
-Overfull \hbox (112.94872pt too wide) in paragraph at lines 254--254
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 252--252
  [] 
  []
 
@@ -2289,7 +2289,7 @@ Missing character: There is no † in font cmr10!
 
 
 LaTeX Font Warning: Font shape `TU/Adobe楷体Std(1)/m/it' undefined
-(Font)              using `TU/Adobe楷体Std(1)/m/n' instead on input line 267.
+(Font)              using `TU/Adobe楷体Std(1)/m/n' instead on input line 262.
 
 Missing character: There is no ∈ in font cmr10!
 Missing character: There is no × in font cmr7!
@@ -2311,12 +2311,12 @@ Missing character: There is no − in font cmr7!
 ]
 Missing character: There is no − in font cmr10!
 
-Underfull \hbox (badness 10000) in alignment at lines 350--350
+Underfull \hbox (badness 10000) in alignment at lines 345--345
 [][]
  []
 
 
-Overfull \hbox (112.94872pt too wide) in paragraph at lines 350--350
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 345--345
  [] 
  []
 
@@ -2331,16 +2331,164 @@ Overfull \hbox (112.94872pt too wide) in paragraph at lines 350--350
 ]
 Missing character: There is no − in font cmr10!
 
-Underfull \hbox (badness 10000) in alignment at lines 413--413
+Underfull \hbox (badness 10000) in alignment at lines 408--408
 [][]
  []
 
 
-Overfull \hbox (112.94872pt too wide) in paragraph at lines 413--413
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 408--408
  [] 
  []
 
 [16
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 434--434
+[][]
+ []
+
+
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 434--434
+ [] 
+ []
+
+
+Overfull \vbox (0.69078pt too high) detected at line 434
+ []
+
+[17
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 457--457
+[][]
+ []
+
+
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 457--457
+ [] 
+ []
+
+[18
+
+]
+Missing character: There is no − in font Adobe Kaiti Std R/OT:script=latn;langu
+age=DFLT;mapping=tex-text;!
+Missing character: There is no − in font cmr10!
+
+Underfull \hbox (badness 10000) in alignment at lines 479--479
+[][]
+ []
+
+
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 479--479
+ [] 
+ []
+
+[19
+
+]
+File: figures/Figure_6.png Graphic file (type bmp)
+<figures/Figure_6.png>
+ [20
+
+]
+Overfull \vbox (14.4542pt too high) detected at line 513
+ []
+
+[21
+
+] [22
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 548--548
+[][]
+ []
+
+
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 548--548
+ [] 
+ []
+
+[23
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 572--572
+[][]
+ []
+
+
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 572--572
+ [] 
+ []
+
+[24
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 595--595
+[][]
+ []
+
+
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 595--595
+ [] 
+ []
+
+[25
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 620--620
+[][]
+ []
+
+
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 620--620
+ [] 
+ []
+
+[26
+
+] [27
+
+]
+
+LaTeX Font Warning: Font shape `TU/Adobe楷体Std(0)/bx/n' undefined
+(Font)              using `TU/Adobe楷体Std(0)/m/n' instead on input line 650.
+
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no − in font cmr10!
+Missing character: There is no ≈ in font cmr10!
+[28
+
+]
+Missing character: There is no ∈ in font cmr10!
+Missing character: There is no × in font cmr7!
+ [29
+
+] [30
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 696--696
+[][]
+ []
+
+
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 696--696
+ [] 
+ []
+
+[31
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 712--712
+[][]
+ []
+
+
+Overfull \hbox (112.94872pt too wide) in paragraph at lines 712--712
+ [] 
+ []
+
+[32
 
 ])
 Runaway argument?
@@ -2362,11 +2510,11 @@ you'd better type `E' or `X' now and fix your file.
 
  
 Here is how much of TeX's memory you used:
- 42113 strings out of 493007
- 838736 string characters out of 6136719
- 983182 words of memory out of 5000000
- 45435 multiletter control sequences out of 15000+600000
- 533833 words of font info for 68 fonts, out of 8000000 for 9000
+ 42022 strings out of 493007
+ 838967 string characters out of 6136719
+ 962508 words of memory out of 5000000
+ 45344 multiletter control sequences out of 15000+600000
+ 536448 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 50i,15n,72p,10415b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on Introduction.pdf (16 pages).
+ 50i,15n,65p,10415b,664s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on Introduction.pdf (32 pages).
