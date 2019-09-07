@@ -195,7 +195,7 @@
 
 \qquad$\bullet$约束最小二乘问题
 
-\qquad$\bullet$$\cdots$
+\qquad$\bullet$ $\cdots$
 
 最小二乘问题在统计学, 最优化问题, 材料与结构力学, 信号与图像处理等方面都有着广泛的应用, 是计算数学的一个重要研究分支, 也是一个活跃的研究领域.
 
@@ -259,7 +259,6 @@ $$
 \section{初等变换矩阵}
 \begin{frame}
 \frametitle{2 初等变换矩阵}
-{\scriptsize
 \begin{enumerate}[2.1]
 	\item {引言}.
 	\item {初等变换矩阵}.
@@ -270,8 +269,10 @@ $$
 	\item { 最小二乘扰动分析}. 
 	\item {最小二乘问题的推广及其应用}.
 \end{enumerate}
-}
 
+\end{frame}
+
+\begin{frame}
 矩阵计算的一个基本思想就是把较复杂的问题转化为等价的较简单的,
 易于求解问题. 而完成这个转化的基本工具就是初等变换矩阵, 其中常用
 的有三个: Gauss 变换, Householder 变换和 Givens 变换.
@@ -802,7 +803,7 @@ $$
 A P^{(l+1)}=Q^{(l+1)} R^{(l+1)}
 $$
 依此类推, 直到第 k 步, 即可得 A 的列主元 QR 分解.\\
-矩阵 R11 的对角线元素的递减关系可由列主元的选取方法推出.
+矩阵 $R_{11}$ 的对角线元素的递减关系可由列主元的选取方法推出.
 \end{frame}
 
 \begin{frame}
@@ -860,7 +861,7 @@ $\dagger$如果 $A \in \mathbb{R}^{m\times n}, m > n$, 仍然可以通过 Givens
 \frametitle{3.6 QR分解的稳定性}
 \noindent 基于 Householder 变换和 Givens 变换的 QR 分解都具有很好的数值稳定性, 基于 MGS 的 QR 分解也是向后稳定的\\
 $\dagger$如果需要计算 Q, 则 MGS 的运算量相对较少, 因此当 A 的列向量具有很好的线性无关性时, 我们可以使用 MGS 来计算 QR 分解.\\
-Björck [Björck 1967] 证明了, 通过 MGS 计算的矩阵 Q 满足
+Bj$\ddot o$rck [Bj$\ddot o$rck 1967] 证明了, 通过 MGS 计算的矩阵 Q 满足
 $$
 Q^{\top} Q=I+E_{M G S},~~\left\|E_{M G S}\right\|_{2} \approx \varepsilon_{u} \kappa_{2}(A)
 $$

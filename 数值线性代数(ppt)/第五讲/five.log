@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.6.30)  29 AUG 2019 19:00
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.6.30)  7 SEP 2019 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2220,32 +2220,32 @@ Dictionary: translator-theorem-dictionary, Language: English
  (./five.nav) (./five.toc) [1
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 191.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 195.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 191.
+(Font)              size <10.95> substituted on input line 195.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 191.
+(Font)              size <10.95> substituted on input line 195.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 191.
+(Font)              size <10.95> substituted on input line 195.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 191.
+LaTeX Font Info:    Try loading font information for U+msa on input line 195.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 191.
+LaTeX Font Info:    Try loading font information for U+msb on input line 195.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `TU/Adobe楷体Std(0)/m/it' undefined
-(Font)              using `TU/Adobe楷体Std(0)/m/n' instead on input line 191.
+(Font)              using `TU/Adobe楷体Std(0)/m/n' instead on input line 195.
 
 [2
 
@@ -2271,7 +2271,7 @@ File: figurest/figure_1.png Graphic file (type bmp)
 ] [11
 
 ]
-Overfull \vbox (29.65692pt too high) detected at line 320
+Overfull \vbox (29.65692pt too high) detected at line 324
  []
 
 [12
@@ -2299,7 +2299,7 @@ Overfull \vbox (29.65692pt too high) detected at line 320
 File: figurest/figure_4.png Graphic file (type bmp)
 <figurest/figure_4.png>
 
-Overfull \vbox (22.89343pt too high) detected at line 415
+Overfull \vbox (22.89343pt too high) detected at line 419
  []
 
 [22
@@ -2308,7 +2308,7 @@ Overfull \vbox (22.89343pt too high) detected at line 415
 File: figurest/figure_5.png Graphic file (type bmp)
 <figurest/figure_5.png>
 
-Overfull \hbox (9.62802pt too wide) in paragraph at lines 423--423
+Overfull \hbox (9.62802pt too wide) in paragraph at lines 427--427
  [] 
  []
 
@@ -2317,28 +2317,23 @@ Overfull \hbox (9.62802pt too wide) in paragraph at lines 423--423
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 437.
+(Font)              size <10.95> substituted on input line 441.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 437.
+(Font)              size <10.95> substituted on input line 441.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 437.
+(Font)              size <10.95> substituted on input line 441.
 
 
 LaTeX Font Warning: Font shape `TU/Adobe楷体Std(0)/bx/n' undefined
-(Font)              using `TU/Adobe楷体Std(0)/m/n' instead on input line 437.
+(Font)              using `TU/Adobe楷体Std(0)/m/n' instead on input line 441.
 
 
 LaTeX Font Warning: Font shape `TU/Adobe楷体Std(0)/bx/it' undefined
-(Font)              using `TU/Adobe楷体Std(0)/bx/n' instead on input line 437.
-
-
-Overfull \hbox (26.27916pt too wide) detected at line 437
-[][]
- []
+(Font)              using `TU/Adobe楷体Std(0)/bx/n' instead on input line 441.
 
 [24
 
@@ -2365,7 +2360,7 @@ File: figurest/figure_2.png Graphic file (type bmp)
 File: figurest/figure_3.png Graphic file (type bmp)
 <figurest/figure_3.png>
 
-Overfull \vbox (10.01086pt too high) detected at line 534
+Overfull \vbox (10.01086pt too high) detected at line 538
  []
 
 [33
@@ -2393,7 +2388,7 @@ Overfull \vbox (10.01086pt too high) detected at line 534
 ] [44
 
 ]
-Overfull \hbox (38.28734pt too wide) detected at line 692
+Overfull \hbox (38.28734pt too wide) detected at line 696
 [][]
  []
 
@@ -2429,7 +2424,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ] [59
 
 ]
-Overfull \vbox (1.29346pt too high) detected at line 802
+Overfull \vbox (1.29346pt too high) detected at line 806
  []
 
 [60
@@ -2525,11 +2520,11 @@ Missing character: There is no ， in font cmr10!
 \Changes@OutFile=\write9
 \openout9 = `five.soc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1250.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1250.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1254.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1254.
  (./five.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1250.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1250.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1254.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1254.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2541,7 +2536,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  42448 strings out of 493007
- 851090 string characters out of 6136719
+ 851096 string characters out of 6136719
  950623 words of memory out of 5000000
  45741 multiletter control sequences out of 15000+600000
  539826 words of font info for 90 fonts, out of 8000000 for 9000

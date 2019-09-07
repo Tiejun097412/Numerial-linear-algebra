@@ -190,11 +190,11 @@
 
 关于稠密矩阵特征值计算的参考资料有:\\
 \begin{itemize}
-	\item J.H.Wilkinson,TheAlgebraicEigenvalueProblem,1965
-	\item B.N.Parlett,TheSymmetricEigenvalueProblem,2ndEds.,1998
-	\item G.W.Stewart,MatrixAlgorithms,VolII:Eigensystems,2001
-	\item G.H.GolubandC.F.VanLoan,MatrixComputations,2013
-	\item P.Arbenz,Thecourse252-0504-00G,
+	\item J.H.Wilkinson, The Algebraic Eigenvalue Problem, 1965
+	\item B.N.Parlett, The Symmetric Eigenvalue Problem, 2nd Eds.,1998
+	\item G.W.Stewart, Matrix Algorithms,VolII: Eigensystems,  2001
+	\item G.H.Goluband C.F.Van Loan,Matrix Computations,2013
+	\item P.Arbenz, The course 252-0504-00G,
 \end{itemize}
 \textcolor{blue}{Numerical Methods for Solving Large Scale Eigenvalue Problems, 2018.
 	(该课程的主页)}
@@ -291,7 +291,7 @@ $\dagger$幂迭代的收敛快慢取决于$\left|\lambda_{2} / \lambda_{1}\right
 	\item \qquad$\sigma=\mu_{k+1},k=k+1$
 	\item end while
 \end{enumerate}
-显然：$\mu_{k}$收敛到$\sigma$最近的特征值,$x^({k})$收敛到对应的特征向量\\
+显然：$\mu_{k}$收敛到$\sigma$最近的特征值,$x^{(k)}$收敛到对应的特征向量\\
 \end{frame}
 \begin{frame}
 
@@ -402,7 +402,8 @@ $$
 \begin{aligned} \operatorname{span}\left\{Z_{k}\right\}=\operatorname{span}\left\{V \Lambda^{k} V^{-1} Z_{0}\right\} &=\operatorname{span}\left\{V_{p} W_{p}^{(k)}+V_{n-p} W_{n-p}^{(k)}\right\} \\ & \rightarrow \operatorname{span}\left\{V_{p} W_{p}^{(k)}\right\}=\operatorname{span}\left\{V_{p}\right\} \end{aligned}
 $$
 即$\operatorname{span}\left\{Z_{k}\right\}$趋向于 A 的一个 $p$ 维不变子空间$\operatorname{span}\left\{V_{p}\right\}$\\
-
+\end{frame}
+\begin{frame}
 \textcolor{blue}{定理}~~给定正整数$p(1 \leq p \leq n)$,考虑算法3.1,假设A是可对角化的，且$\left|\lambda_{1}\right| \geq \cdots \geq\left|\lambda_{p}\right|>\left|\lambda_{p+1}\right| \geq \cdots \geq\left|\lambda_{n}\right|$.则
 $\operatorname{span}\left\{Z_{k}\right\}$收敛到A的一 个 $p$ 维不变子空间.\\
 \end{frame}
@@ -764,7 +765,7 @@ Hessenberg矩阵另一重要性质：在QR迭代中保持下次对角线元素�
 
 \textcolor{blue}{定理}\quad 设$A \in \mathbb{R}^{n \times n}$是上Hessenberg矩阵且下次对角线元素均非零，即$a_{i+1, i} \neq 0, i=1,2, \ldots, n-1$。设其QR分解为$A=QR$，则$\tilde{A} \triangleq R Q$的下次对角线元素也都非零。
 
-若$A$村咋子某个下次对角线元素为零，则$A$一定可约。因此，我们只需考虑下次对角线均非零的情形。
+若$A$存在某个下次对角线元素为零，则$A$一定可约。因此，我们只需考虑下次对角线均非零的情形。
 
 \textcolor{blue}{推论}\quad $\tilde{A} \triangleq R Q$则在带位移的QR迭代中，所有的$A_k$的下次对角线元素均非零。
 \end{frame}
@@ -942,23 +943,30 @@ $$
 
 \begin{frame}
 \textcolor{blue}{第三步}\quad 与第二步类似，令$H_{3}=\left[\begin{array}{ccc}{I_2} & {0} & {0} \\ {0} & {\tilde{H}_{3}^{\top}} & {0} \\ {0} & {0} & {1}\end{array}\right]$，其中$\tilde{H}_{3} \in \mathbb{R}^{3 \times 3}$是对应于$A(3 : 5,2)$的Householder变换,使得$$
-H_{3}^{\top} A^{(2)}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {+} & {*}& {*}& {*}\\ {0} & {0} & {0} & {0}& {*}& {*}\end{array}\right]
-\text{和}A^{(3)} \triangleq H_{3}^{\top} A^{(2)} H_{3}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {+} & {*}& {*}& {*}\\ {0} & {0} & {+} & {+}& {*}& {*}\end{array}\right]
+H_{3}^{\top} A^{(2)}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {+} & {*}& {*}& {*}\\ {0} & {0} & {0} & {0}& {*}& {*}\end{array}\right]$$
+\end{frame}
+
+\begin{frame}
+和$$A^{(3)} \triangleq H_{3}^{\top} A^{(2)} H_{3}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {+} & {*}& {*}& {*}\\ {0} & {0} & {+} & {+}& {*}& {*}\end{array}\right]
 $$
 这时，bugle又被向右下角方向”赶“了一个位置。
 \end{frame}
 
 \begin{frame}
 \textcolor{blue}{第四步}\quad 令$H_{4}=\left[\begin{array}{cc}{I_3} & {0} \\ {0} & {\tilde{H}_{4}^{\top}}  \end{array}\right]$，其中$\tilde{H}_{4} \in \mathbb{R}^{3 \times 3}$是对应于$A(4: 6,3)$的Householder变换,使得$$
-H_{4}^{\top} A^{(3)}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {0} & {*}& {*}& {*}\\ {0} & {0} & {0} & {+}& {*}& {*}\end{array}\right]
-\text{和}A^{(4)} \triangleq H_{4}^{\top} A^{(3)} H_{4}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {0} & {*}& {*}& {*}\\ {0} & {0} & {0} & {+}& {*}& {*}\end{array}\right]
+H_{4}^{\top} A^{(3)}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {0} & {*}& {*}& {*}\\ {0} & {0} & {0} & {+}& {*}& {*}\end{array}\right]$$
+\end{frame}
+
+\begin{frame}和$$A^{(4)} \triangleq H_{4}^{\top} A^{(3)} H_{4}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {0} & {*}& {*}& {*}\\ {0} & {0} & {0} & {+}& {*}& {*}\end{array}\right]
 $$
 \end{frame}
 
 \begin{frame}
 \textcolor{blue}{第五步}\quad 只需构造一个Givens变换$G_{5}=\left[\begin{array}{cc}{I_4} & {0} \\ {0} & {G(4,5,\theta)^{\top}}  \end{array}\right]$，使得$$
-G_{}5^{\top} A^{(4)}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {0} & {*}& {*}& {*}\\ {0} & {0} & {0} & {0}& {*}& {*}\end{array}\right]
-\text{和}A^{(5)} \triangleq G_{5}^{\top} A^{(4)} G_{5}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {0} & {*}& {*}& {*}\\ {0} & {0} & {0} & {0}& {*}& {*}\end{array}\right]
+G_{}5^{\top} A^{(4)}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {0} & {*}& {*}& {*}\\ {0} & {0} & {0} & {0}& {*}& {*}\end{array}\right]$$
+\end{frame}
+
+\begin{frame}和$$A^{(5)} \triangleq G_{5}^{\top} A^{(4)} G_{5}=\left[\begin{array}{cccccc}{*} & {*} & {*}& {*}& {*}& {*} \\ {*} & {*} & {*} & {*}& {*}& {*}\\ {0} & {*} & {*} & {*} & {*}& {*}\\ {0} & {0} & {*} & {*}& {*}& {*}\\ {0} & {0} & {0} & {*}& {*}& {*}\\ {0} & {0} & {0} & {0}& {*}& {*}\end{array}\right]
 $$
 
 现在，bulge已经被全部消除，且$$A^{(5)}=Q^{\top} A Q$$，其中$Q=H_{1} H_{2} H_{3} H_{4} G_{5}$。通过直接计算可知，$Q$的第一列即为$H_1$的第一列。根据隐式Q定理，可以直接令$A_{3} \triangleq A^{(5)}=Q^{\top} A Q$。

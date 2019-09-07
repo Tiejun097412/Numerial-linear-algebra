@@ -1,8 +1,0 @@
-\beamer@sectionintoc {1}{幂迭代}{1}{0}{1}
-\beamer@sectionintoc {2}{反迭代}{9}{0}{2}
-\beamer@sectionintoc {3}{正交迭代}{15}{0}{3}
-\beamer@sectionintoc {4}{QR迭代}{21}{0}{4}
-\beamer@sectionintoc {5}{带位移的隐式QR迭代}{40}{0}{5}
-\beamer@sectionintoc {6}{特征向量的计算}{73}{0}{6}
-\beamer@sectionintoc {7}{广义特征值问题}{76}{0}{7}
-\beamer@sectionintoc {8}{应用：多项式求根}{82}{0}{8}

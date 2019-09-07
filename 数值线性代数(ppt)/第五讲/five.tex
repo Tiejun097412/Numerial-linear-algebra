@@ -177,10 +177,14 @@
 \section{Jacobi迭代}
 \begin{frame}
 关于对称特征值问题的常用算法有（直接法）：
+
 $\bullet$ \textcolor{blue}{Jacobi迭代}:最古老,收敛速度较慢,但精度较高,且很适合并行计算。
+
 $\bullet$ \textcolor{blue}{Rayleigh商迭代}:一般具有三次收敛性,但需要解方程组。
+
 $\bullet$ \textcolor{blue}{对称QR迭代}:对称矩阵的QR方法.对于对称三对角矩阵,若只计算特征值,则速
 	度最快(运算量为$\mathcal O(n^2)$)。如果还需要计算特征向量，则运算量约为$6n^3$。
+	
 $\bullet$ \textcolor{blue}{分而治之法}：同时计算特征值和特征向量的一种快速算法。基本思想时将大
 	矩阵分解形成小矩阵，然后利用递归思想求特征值。在最坏的情形下，运算量为
 	$\mathcal O(n^3)$。在实际应用中，平均为$\mathcal O(n^{2.3})$。如果使用快速多
@@ -425,7 +429,7 @@ MATLAB代码：$Eig_TriQR.m$
 \frametitle{假定$T_1$和$T_2$的特征值已经计算出来}
 即$T_1=Q_1\boldsymbol{\Lambda}_1Q_1^T$，$T_2=Q_2\boldsymbol{\Lambda}_2Q_2^T$，下面考虑$T$的特征值分解。
 $$
-\begin{aligned} T=\left[\begin{array}{cc}{T_{1}} & {0} \\ {0} & {T_{2}}\end{array}\right]+b_{m} v v^{\mathrm{T}} &=\left[\begin{array}{cc}{Q_{1} \Lambda_{1} Q_{1}^{\mathrm{T}}} & {0} \\ {0} & {Q_{2} \Lambda_{2} Q_{2}^{\mathrm{T}}}\end{array}\right]+b_{m} v v^{\mathrm{T}} \\ &=\left[\begin{array}{cc}{Q_{1}} & {0} \\ {0} & {Q_{2}}\end{array}\right]\left(\left[\begin{array}{cc}{\Lambda_{1}} & {0} \\ {0} & {\Lambda_{2}}\end{array}\right]+b_{m} u u^{\mathrm{T}}\right)\left[\begin{array}{cc}{Q_{1}} & {0} \\ {0} & {Q_{2}}\end{array}\right]^{\top} \end{aligned}
+\begin{aligned} T&=\left[\begin{array}{cc}{T_{1}} & {0} \\ {0} & {T_{2}}\end{array}\right]+b_{m} v v^{\mathrm{T}} =\left[\begin{array}{cc}{Q_{1} \Lambda_{1} Q_{1}^{\mathrm{T}}} & {0} \\ {0} & {Q_{2} \Lambda_{2} Q_{2}^{\mathrm{T}}}\end{array}\right]+b_{m} v v^{\mathrm{T}} \\ &=\left[\begin{array}{cc}{Q_{1}} & {0} \\ {0} & {Q_{2}}\end{array}\right]\left(\left[\begin{array}{cc}{\Lambda_{1}} & {0} \\ {0} & {\Lambda_{2}}\end{array}\right]+b_{m} u u^{\mathrm{T}}\right)\left[\begin{array}{cc}{Q_{1}} & {0} \\ {0} & {Q_{2}}\end{array}\right]^{\top} \end{aligned}
 $$
 其中$$
 u=\left[\begin{array}{cc}{Q_{1}} & {0} \\ {0} & {Q_{2}}\end{array}\right]^{\top}
@@ -966,7 +970,7 @@ dqds算法的运算量与dqs差不多，但更精确。
 	\item \quad $t=\operatorname{sign}(\tau) /\left(|\tau|+\sqrt{1+\tau^{2}}\right)$
 	\item \quad $c=1 / \sqrt{1+t^{2}}$
 	\item \quad $s=c\cdot t$
-	\item \quad $A=A G(i, j, \theta)$ \qquad \% $G(i,j,\theta)$为Givens变换
+	\item \quad $A=A\cdot G(i, j, \theta)$ \qquad \% $G(i,j,\theta)$为Givens变换
 	\item \quad if eigenvectors are desired then
 	\item \qquad $J=J\cdot G(i, j, \theta)$
 	\item \quad end if
@@ -979,13 +983,13 @@ dqds算法的运算量与dqs差不多，但更精确。
 \begin{enumerate}[1:]
 	\item while $A^TA$ is not diagonal enough do
 	\item \quad for $i=1$ to $n-1$do
-	\item \qquad for $j=i+1$to $n$ do
+	\item \qquad for $j=i+1$ to $n$ do
 	\item \qquad \quad 调用单边Jacobi旋转
 	\item \qquad end for 
 	\item \quad end for 
 	\item end while 
 	\item compute $\sigma_{i}=\|A( :, i)\|_{2}, i=1,2, \ldots n$
-	\item $U=\left[u_{1}, \dots, u_{n}\right]$with $u_{i}=A( :, i) / \sigma_{i}$
+	\item $U=\left[u_{1}, \dots, u_{n}\right]$ with $u_{i}=A( :, i) / \sigma_{i}$
 	\item $V=J$
 \end{enumerate}
 \end{frame}
@@ -1033,7 +1037,7 @@ $$
 	\item $\rho\left(q_{i}\right)=\lambda_{i}, i=1,2, \dots, n$;
 	\item 设$x=\alpha_{1} q_{1}+\alpha_{2} q_{2}+\cdots+\alpha_{n} q_{n}$，则$$
 	\rho(x)=\frac{\alpha_{1}^{2} \lambda_{1}+\alpha_{2}^{2} \lambda_{2}+\cdots+\alpha_{n}^{2} \lambda_{n}}{\alpha_{1}^{2}+\alpha_{2}^{2}+\cdots+\alpha_{n}^{2}}
-	$$；
+	$$
 	\item $\lambda_{n} \leq \rho(x) \leq \lambda_{1},|\rho(x)| \leq\|A\|_{2}$。
 \end{enumerate}
 \end{frame}
@@ -1129,8 +1133,8 @@ $$。
 
 \textcolor{blue}{引理}\quad 设$A \in \mathbb{R}^{m \times n}(m \geq n)$的奇异值分解为$A=U\sum V$，其中$U=[u_1,\cdots ,u_n]\in \mathbb{R}^{m \times n}$为列正交矩阵，$V=[v_1,\cdots v_n]\in \mathbb{R}^{n \times n}$为正交矩阵，$\sum =diag(\sigma_{1}, \ldots, \sigma_{n})$。将$U$扩展成$n\times n$的正交矩阵$[U, \check{U}]=\left[u_{1}, \dots, u_{n}, \tilde{u}_{1}, \ldots, \tilde{u}_{m-n}\right]$，令$$
 H=\left[\begin{array}{cc}{0} & {A^{\top}} \\ {A} & {0}\end{array}\right] \in \mathbb{R}^{(m+n) \times(m+n)}
-4
-$$则$H$对称，且特征值为$\pm \sigma_{i}$和$0$(其中$0$至少为$m-n$重特征值)，对应的特征向量分别为$\frac{\sqrt{2}}{2}\left[\begin{array}{c}{v_{i}} \\ { \pm u_{i}}\end{array}\right]$，$i=1,2, \dots, n$，$\left[\begin{array}{c}{0} \\ {\tilde{u}_{j}}\end{array}\right], j=1,2, \ldots, m-n$。
+$$
+则$H$对称，且特征值为$\pm \sigma_{i}$和$0$(其中$0$至少为$m-n$重特征值)，对应的特征向量分别为$\frac{\sqrt{2}}{2}\left[\begin{array}{c}{v_{i}} \\ { \pm u_{i}}\end{array}\right]$，$i=1,2, \dots, n$，$\left[\begin{array}{c}{0} \\ {\tilde{u}_{j}}\end{array}\right], j=1,2, \ldots, m-n$。
 \end{frame}
 \begin{frame}
 
@@ -1173,7 +1177,7 @@ $$
 其中$\beta_1,\beta_2$为规范化因子。故特征向量的扰动约为$\varepsilon / g$，与特征值的间隙$\operatorname{gap}\left(\lambda_{i}, A\right)=g$成反比。
 \end{frame}
 \begin{frame}
-\textcolor{blue}{定理}\quad 设$A=Q\Lambda Q^The$和$A+E=\tilde{Q} \tilde{\Lambda} \tilde{Q}^{\mathrm{T}}$分别为对称矩阵$A \in \mathbb{R}^{n \times n}$和$A+E \in \mathbb{R}^{n \times n}$的特征值分解，其中$Q=\left[q_{1}, q_{2}, \ldots, q_{n}\right]$和$\tilde{Q}=\left[\tilde{q}_{1}, \tilde{q}_{2}, \ldots, \tilde{q}_{n}\right]$均为正交矩阵，且$\tilde{q}_{i}$为$q_{i}$对应的扰动特征向量。用$\theta_i$表示$q_{i}$和$\tilde{q}_{i}$之间的锐角，则当$\operatorname{gap}\left(\lambda_{i}, A\right)>0$时$$
+\textcolor{blue}{定理}\quad 设$A=Q\Lambda Q^T$和$A+E=\tilde{Q} \tilde{\Lambda} \tilde{Q}^{\mathrm{T}}$分别为对称矩阵$A \in \mathbb{R}^{n \times n}$和$A+E \in \mathbb{R}^{n \times n}$的特征值分解，其中$Q=\left[q_{1}, q_{2}, \ldots, q_{n}\right]$和$\tilde{Q}=\left[\tilde{q}_{1}, \tilde{q}_{2}, \ldots, \tilde{q}_{n}\right]$均为正交矩阵，且$\tilde{q}_{i}$为$q_{i}$对应的扰动特征向量。用$\theta_i$表示$q_{i}$和$\tilde{q}_{i}$之间的锐角，则当$\operatorname{gap}\left(\lambda_{i}, A\right)>0$时$$
 \frac{1}{2} \sin 2 \theta_{i} \leq \frac{\|E\|_{2}}{\operatorname{gap}\left(\lambda_{i}, A\right)}
 $$类似的，当$\operatorname{gap}\left(\tilde{\lambda}_{i}, A+E\right)>0$时$$
 \frac{1}{2} \sin 2 \theta_{i} \leq \frac{\|E\|_{2}}{\operatorname{gap}\left(\tilde{\lambda}_{i}, A+E\right)}
